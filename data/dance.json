@@ -1,0 +1,129 @@
+{
+  "collection": {
+    "title": "Philadelphia Dance Collection",
+    "manifest": "https://cdm16002.contentdm.oclc.org/iiif/info/p16002coll17/manifest.json",
+    "collection_page": "https://digital.library.temple.edu/digital/collection/p16002coll17",
+    "source": "Temple University Libraries, Special Collections Research Center"
+  },
+  "items": [
+    {
+      "title": "Sleeping Beauty",
+      "featured": true,
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll17/id/20",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll17:20/manifest.json",
+      "company": "Pennsylvania Ballet",
+      "themes": ["Classical Ballet", "Productions"],
+      "photographer": "Jack Mitchell",
+      "date": "1966-1967",
+      "subjects": ["Ballet", "Ballet dancers", "Performances"],
+      "description": "Pennsylvania Ballet dancers performing Sleeping Beauty, one of the company's early productions."
+    },
+    {
+      "title": "Rodeo",
+      "featured": true,
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll17/id/1",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll17:1/manifest.json",
+      "company": "Pennsylvania Ballet",
+      "themes": ["American Dance", "Productions"],
+      "photographer": "Paul Kolnik",
+      "date": "February 1997",
+      "subjects": ["Ballet", "Performances", "Ballet dancers"],
+      "description": "Pennsylvania Ballet company members in Agnes de Mille's Rodeo, performed at the Merriam Theatre."
+    },
+    {
+      "title": "Lilac Garden",
+      "featured": true,
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll17/id/30",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll17:30/manifest.json",
+      "company": "Pennsylvania Ballet",
+      "themes": ["Classical Ballet", "Productions"],
+      "photographer": "Douglas Hay",
+      "performers": "Lisa Sundstrom, Roy Kaiser",
+      "date": "March 1991",
+      "subjects": ["Ballet", "Ballet dancers", "Performances"],
+      "description": "Principal dancers Lisa Sundstrom and Roy Kaiser in The Pennsylvania Ballet's production of Antony Tudor's richly dramatic masterwork, Lilac Garden."
+    },
+    {
+      "title": "Michelle Lucci during Performance",
+      "featured": true,
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll17/id/23",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll17:23/manifest.json",
+      "company": "Pennsylvania Ballet",
+      "themes": ["Classical Ballet", "Performers"],
+      "performers": "Michelle Lucci",
+      "date": "Undated",
+      "subjects": ["Ballet", "Ballet dancers", "Performances"],
+      "description": "Michelle Lucci during Pennsylvania Ballet performance."
+    },
+    {
+      "title": "Ballerina Posing with American Flag",
+      "featured": true,
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll17/id/10",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll17:10/manifest.json",
+      "company": "Pennsylvania Ballet",
+      "themes": ["American Dance", "Performers"],
+      "date": "Undated",
+      "subjects": ["Ballet", "Ballerinas", "Ballet dancers"],
+      "description": "Ballerina posing in front of American flag."
+    },
+    {
+      "title": "Ballet Dancers Rehearsing",
+      "featured": true,
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll17/id/15",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll17:15/manifest.json",
+      "company": "Pennsylvania Ballet",
+      "themes": ["Training & Rehearsal", "Classical Ballet"],
+      "date": "Undated",
+      "subjects": ["Ballet", "Ballet dancers"],
+      "description": "Ballet dancers rehearsing for Pennsylvania Ballet production."
+    },
+    {
+      "title": "Two Ballet Dancers During Performance",
+      "featured": false,
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll17/id/5",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll17:5/manifest.json",
+      "company": "Pennsylvania Ballet",
+      "themes": ["Classical Ballet", "Productions"],
+      "date": "Undated",
+      "subjects": ["Ballet", "Ballet dancers", "Performances"],
+      "description": "Male and female ballet dancers during performance."
+    },
+    {
+      "title": "David St. Charles - Lead Male Dancer",
+      "featured": true,
+      "record": "https://digital.library.temple.edu/digital/collection/p15037coll3/id/11529",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p15037coll3:11529/manifest.json",
+      "company": "Philadelphia Dance Company (Philadanco)",
+      "themes": ["Contemporary Dance", "Performers", "African American Dance"],
+      "photographer": "Jack Tinney",
+      "performers": "David St. Charles",
+      "date": "October 4, 1981",
+      "subjects": ["Dance", "Dancers", "African American dancers", "Dance companies"],
+      "description": "David St. Charles, Philadanco's lead male dancer, photographed at the company's West Philadelphia location."
+    },
+    {
+      "title": "Auditions for Philadanco",
+      "featured": true,
+      "record": "https://digital.library.temple.edu/digital/collection/p15037coll3/id/11514",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p15037coll3:11514/manifest.json",
+      "company": "Philadelphia Dance Company (Philadanco)",
+      "themes": ["Training & Rehearsal", "Contemporary Dance", "African American Dance"],
+      "performers": "Valerie Williams",
+      "date": "June 25, 1975",
+      "subjects": ["Dance", "Dancers", "African American dancers", "Dance companies"],
+      "description": "Valerie Williams, 18, of North Philadelphia warms up with others auditioning for the Philadelphia Dance Company at 6249 Market Street."
+    },
+    {
+      "title": "Performing the Samba",
+      "featured": true,
+      "record": "https://digital.library.temple.edu/digital/collection/p15037coll3/id/11516",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p15037coll3:11516/manifest.json",
+      "company": "Philadelphia Dance Company (Philadanco)",
+      "themes": ["Contemporary Dance", "African American Dance", "Productions"],
+      "photographer": "Robert L. Fox",
+      "date": "March 16, 1975",
+      "subjects": ["Dance", "Dancers", "African American dancers", "Dance companies"],
+      "description": "The Philadelphia Dance Company presented a Brazilian folk dance with African American influences at Martin Luther King High School."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{{ $items := site.Data.dance.items }}
+{{ $featured := where $items "featured" true }}
+{{ $avatarItem := index $featured 1 }}
+{{ $avatarImage := partial "iiif-image.html" $avatarItem }}
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="{{ "/" | relURL }}">
+      <div class="brand-avatar">
+        <img src="{{ $avatarImage }}" alt="Dance photograph" />
+      </div>
+      <div>
+        <p class="brand-title">Philadelphia Dance</p>
+        <p class="brand-subtitle">Temple University Libraries</p>
+      </div>
+    </a>
+    <nav class="header-nav">
+      {{ $themePages := where site.RegularPages "Section" "themes" }}
+      {{ range $themePages }}
+        <a class="nav-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
+      {{ end }}
+    </nav>
+  </div>
+</header>

@@ -1,0 +1,908 @@
+{
+  "collection": {
+    "title": "Allied Posters of World War I",
+    "manifest": "https://cdm16002.contentdm.oclc.org/iiif/info/p16002coll9/manifest.json",
+    "collection_page": "https://digital.library.temple.edu/digital/collection/p16002coll9",
+    "source": "Temple University Libraries, Digital Collections"
+  },
+  "items": [
+    {
+      "title": "The veteran's farewell",
+      "featured": true,
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll9/id/3910",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll9:3910/manifest.json",
+      "country": "Great Britain",
+      "themes": [
+        "Recruitment"
+      ],
+      "artist": "Frank Dadd",
+      "printer": "Straker Brothers",
+      "publisher": "London : Parliamentary Recruiting Committee",
+      "contributor": "Dadd, Frank, 1851-1929, artist.; Straker Brothers, printer.; Great Britain. Parliamentary Recruiting Committee, publisher.",
+      "date": "1914",
+      "language": "English",
+      "subjects": [
+        "World War, 1914-1918 -- Propaganda.",
+        "War posters -- Great Britain.",
+        "Great Britain -- Armed forces -- Recruiting, enlistment, etc. -- World War, 1914-1918."
+      ],
+      "series": "Poster (Great Britain. Parliamentary Recruiting Committee) ; no. 63.",
+      "description": "A white-bearded veteran shakes the hand of a soldier in uniform. In the background, civilian recruits walk along behind a non-commissioned officer(?).",
+      "physical_description": "1 poster : col. ; 74 x 51 cm.",
+      "repository_collection": "George F. Tyler Poster Collection",
+      "note": "Signed \"Frank Dadd.\" \"Poster No. 63(?).\" \"W TW.16178\" appears on bottom left of the poster. Orientation: Vertical."
+    },
+    {
+      "title": "Daddy, what did you do in the great war?",
+      "featured": true,
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll9/id/3914",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll9:3914/manifest.json",
+      "country": "Great Britain",
+      "themes": [
+        "Recruitment"
+      ],
+      "printer": "Johnson, Riddle & Co.",
+      "publisher": "London : Parliamentary Recruiting Committee",
+      "contributor": "Johnson, Riddle & Co., printer.; Great Britain. Parliamentary Recruiting Committee, publisher.",
+      "date": "1914-1918",
+      "language": "English",
+      "subjects": [
+        "World War, 1914-1918 -- Propaganda.",
+        "War posters -- Great Britain.",
+        "Great Britain -- Armed forces -- Recruiting, enlistment, etc. -- World War, 1914-1918."
+      ],
+      "series": "Poster (Great Britain. Parliamentary Recruiting Committee) ; no. 79.",
+      "description": "Two children are by their fathers side. The little girl sitting on her dads lap, asks him what he did to help in the great war. The father looks confused as to what to tell her.",
+      "physical_description": "1 poster : col. ; 76 x 51 cm.",
+      "repository_collection": "George F. Tyler Poster Collection",
+      "note": "Date based on dates of 1st World War. \"Poster No. 79.\" Orientation: Vertical."
+    },
+    {
+      "title": "Boys! come along",
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll9/id/3915",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll9:3915/manifest.json",
+      "country": "Great Britain",
+      "themes": [
+        "Recruitment"
+      ],
+      "printer": "David Allen & Sons",
+      "publisher": "London : Parliamentary Recruiting Committee",
+      "contributor": "David Allen & Sons, printer.; Great Britain. Parliamentary Recruiting Committee, publisher.",
+      "date": "1915",
+      "language": "English",
+      "subjects": [
+        "World War, 1914-1918 -- Propaganda.",
+        "War posters -- Great Britain.",
+        "Great Britain -- Armed forces -- Recruiting, enlistment, etc. -- World War, 1914-1918."
+      ],
+      "series": "Poster (Great Britain. Parliamentary Recruiting Committee) ; no. 80.",
+      "description": "Illustration shows a shadowed figure of a serviceman saluting. Text says come along boys you are wanted.",
+      "physical_description": "1 poster : col. ; 51 x 76 cm.",
+      "repository_collection": "George F. Tyler Poster Collection",
+      "note": "\"Poster No. 80.\" \"W.417. 35M-4/15\" appears on the bottom right of poster. Orientation: Horizontal."
+    },
+    {
+      "title": "Why not join the army",
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll9/id/3911",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll9:3911/manifest.json",
+      "country": "Great Britain",
+      "themes": [
+        "Recruitment"
+      ],
+      "printer": "Chorley & Pickersgill Ltd.",
+      "publisher": "London : Parliamentary Recruiting Committee",
+      "contributor": "Chorley & Pickersgill Ltd., printer.; Great Britain. Parliamentary Recruiting Committee, publisher.",
+      "date": "1914-1918",
+      "language": "English",
+      "subjects": [
+        "World War, 1914-1918 -- Propaganda.",
+        "War posters -- Great Britain."
+      ],
+      "series": "Poster (Great Britain. Parliamentary Recruiting Committee) ; no. 64.",
+      "description": "A recruiting poster without pictorial content.",
+      "physical_description": "1 poster : col. ; 15 x 77 cm.",
+      "repository_collection": "George F. Tyler Poster Collection",
+      "note": "Date based on dates of 1st World War. \"Poster No. 64.\" Orientation: Horizontal."
+    },
+    {
+      "title": "We're both needed to serve the guns!",
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll9/id/3917",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll9:3917/manifest.json",
+      "country": "Great Britain",
+      "themes": [
+        "Recruitment",
+        "War Work"
+      ],
+      "printer": "Chorley & Pickersgill",
+      "publisher": "London : Parliamentary Recruiting Committee",
+      "contributor": "Chorley & Pickersgill, printer.; Great Britain. Parliamentary Recruiting Committee, publisher.",
+      "date": "1914-1918",
+      "language": "English",
+      "subjects": [
+        "World War, 1914-1918 -- War work -- Great Britain.",
+        "World War, 1914-1918 -- Propaganda.",
+        "War posters -- Great Britain.",
+        "Great Britain -- Armed forces -- Recruiting, enlistment, etc. -- World War, 1914-1918."
+      ],
+      "series": "Poster (Great Britain. Parliamentary Recruiting Committee) ; no. 85c.",
+      "description": "Text says that both the serviceman and the worker are needed to serve the guns; so fill up the ranks, and pile up the munitions. Illustration shows a serviceman shaking hands with a worker.",
+      "physical_description": "1 poster : col. ; 51 x 76 cm.",
+      "repository_collection": "George F. Tyler Poster Collection",
+      "note": "Date based on dates if 1st World War. \"Poster No. 85c.\" Orientation: Horizontal."
+    },
+    {
+      "title": "Cold-blooded murder!",
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll9/id/3918",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll9:3918/manifest.json",
+      "country": "Great Britain",
+      "themes": [
+        "Recruitment",
+        "Anti-German Propaganda"
+      ],
+      "printer": "Roberts & Leete",
+      "publisher": "London : Parliamentary Recruiting Committee",
+      "contributor": "Roberts & Leete, printer.; Great Britain. Parliamentary Recruiting Committee, publisher.",
+      "date": "1914-1918",
+      "language": "English",
+      "subjects": [
+        "Propaganda, Anti-German -- Great Britain.",
+        "World War, 1914-1918 -- Propaganda.",
+        "War posters -- Great Britain.",
+        "Great Britain -- Armed forces -- Recruiting, enlistment, etc. -- World War, 1914-1918."
+      ],
+      "series": "Poster (Great Britain. Parliamentary Recruiting Committee) ; no. 97.",
+      "description": "Text says to remember Germany's crowning infamy and cold blooded murder of women and children. Don't let these crimes against God and man make you afraid of the German barbarians but instead do something, enlist to-day. No pictorial content.",
+      "physical_description": "1 poster : col. ; 101 x 64 cm.",
+      "repository_collection": "George F. Tyler Poster Collection",
+      "note": "Date based on dates of 1st World War. \"Poster No. 97.\" \"W.2464/446\" appears on the bottom right of the poster. Orientation: Vertical."
+    },
+    {
+      "title": "La victoire exposition",
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll9/id/3933",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll9:3933/manifest.json",
+      "country": "France",
+      "themes": [
+        "War Work"
+      ],
+      "printer": "Galerie Devambez Imp.",
+      "publisher": "Paris : Galerie Devambez, Imp.",
+      "contributor": "Galerie Devambez Imp., publisher, printer.",
+      "date": "1914-1918",
+      "language": "French",
+      "subjects": [
+        "World War, 1914-1918 -- War work -- France.",
+        "World War, 1914-1918 -- Propaganda.",
+        "War posters -- France."
+      ],
+      "description": "Text in French says that there will be a victory exposition to profit the National Committee of Physical and Sport Education and Social Hygiene. It will be March 11th to and including April 1st. Illustration shows an angel with wings susspended in air, symbolic of victory.",
+      "physical_description": "1 poster : col. ; 119 x 78 cm.",
+      "repository_collection": "George F. Tyler Poster Collection",
+      "note": "Date based on dates of 1st World War. \"Visa, No. 14.804.\" appears on the bottom right of poster. Orientation: Vertical."
+    },
+    {
+      "title": "Exposition de l'enfance",
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll9/id/3934",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll9:3934/manifest.json",
+      "country": "France",
+      "themes": [
+        "Red Cross"
+      ],
+      "artist": "N. Schawdandjian",
+      "publisher": "Paris : Etablissements Lecram",
+      "contributor": "Schawdandjian, N., artist.; Etablissements Lecram, publisher.",
+      "date": "1918",
+      "language": "French",
+      "subjects": [
+        "World War, 1914-1918 -- War work -- Red Cross.",
+        "World War, 1914-1918 -- Propaganda.",
+        "War posters -- France."
+      ],
+      "description": "Text in French says that the exposition for the children is organized by the American Red Cross, Bureau of the Children, for freedom. Illustration shows a child standing on his baby table, painting a bulletin board which tells of the exposition for the children.",
+      "physical_description": "1 poster : col. ; 119 x 78 cm.",
+      "repository_collection": "George F. Tyler Poster Collection",
+      "note": "Signed \"N. Schawdandjian.\" \"Visa No. 13.256.\" appears on the bottom right of poster. Orientation: Vertical."
+    },
+    {
+      "title": "Join the Canadian Grenadier Guards for overseas service",
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll9/id/3957",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll9:3957/manifest.json",
+      "country": "Canada",
+      "themes": [
+        "Recruitment"
+      ],
+      "printer": "Montreal Lithographing Co.",
+      "publisher": "Montreal : Montreal Lithographing Co. Limited",
+      "contributor": "Montreal Lithographing Co., lithographer.",
+      "date": "1914-1918",
+      "language": "English",
+      "subjects": [
+        "World War, 1914-1918 -- Propaganda.",
+        "War posters -- Canada.",
+        "Canada -- Armed forces -- Recruiting, enlistment, etc."
+      ],
+      "description": "Text says to join the Canadian Grenadier Guards for overseas service. Illustration shows a Grenadier Guardsman.",
+      "physical_description": "1 poster : col. ; 104 x 70 cm.",
+      "repository_collection": "George F. Tyler Poster Collection",
+      "note": "Date based on dates of 1st World War. Orientation: Vertical."
+    },
+    {
+      "title": "Your country wants you",
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll9/id/3922",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll9:3922/manifest.json",
+      "country": "Great Britain",
+      "themes": [
+        "Recruitment"
+      ],
+      "printer": "C. W. Faulkner & Co.",
+      "publisher": "London : Parliamentary Recruiting Committee",
+      "contributor": "C. W. Faulkner & Co., printer.; Great Britain. Parliamentary Recruiting Committee, publisher.",
+      "date": "1914-1918",
+      "language": "English",
+      "subjects": [
+        "World War, 1914-1918 -- Propaganda.",
+        "War posters -- Great Britain.",
+        "Great Britain -- Armed forces -- Recruiting, enlistment, etc. -- World War, 1914-1918."
+      ],
+      "series": "Poster (Great Britain. Parliamentary Recruiting Committee) ; no. 102.",
+      "description": "Text says that your country wants you and 300,000 more men like you. Join now. No pictorial content.",
+      "physical_description": "1 poster : col. ; 98 x 62 cm.",
+      "repository_collection": "George F. Tyler Poster Collection",
+      "note": "Date based on dates of 1st World War. \"Poster No. 102.\" Orientation: Vertical."
+    },
+    {
+      "title": "Ring it again",
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll9/id/3962",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll9:3962/manifest.json",
+      "country": "United States",
+      "themes": [
+        "War Bonds"
+      ],
+      "printer": "E. Ketterlinus & Co.",
+      "publisher": "Place of publication not identified : publisher not identified",
+      "contributor": "E. Ketterlinus & Co., printer.",
+      "date": "1917 or 1918",
+      "language": "English",
+      "subjects": [
+        "Liberty bonds -- United States.",
+        "World War, 1914-1918 -- Propaganda.",
+        "War posters, American."
+      ],
+      "description": "Text says that the United States Liberty Loan is the safest investment in the world. Poster asks \"Have you bought your bond?\" Illustration shows the Liberty Bell.",
+      "physical_description": "1 poster : col. ; 72 x 52 cm.",
+      "repository_collection": "George F. Tyler Poster Collection",
+      "note": "Date based on America's participation in the war. Orientation: Vertical."
+    },
+    {
+      "title": "Help your Red Cross",
+      "featured": true,
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll9/id/3995",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll9:3995/manifest.json",
+      "country": "United States",
+      "themes": [
+        "Red Cross"
+      ],
+      "artist": "Hubert Chapin",
+      "printer": "Latham Litho & Ptg. Co.",
+      "publisher": "New York : Latham Litho & Ptg. Co.",
+      "contributor": "Chapin, Hubert, artist.; Latham Litho & Ptg. Co., lithographer, printer.",
+      "date": "1917 or 1918",
+      "language": "English",
+      "subjects": [
+        "World War, 1914-1918 -- War work -- Red Cross.",
+        "World War, 1914-1918 -- Propaganda.",
+        "War posters, American."
+      ],
+      "description": "Text says to please help the Red Cross. Illustration shows a church with a giant Jesus above and the Red Cross sign above him. A Red Cross nurse is seen helping a man step up from the earth.",
+      "physical_description": "1 poster : col. ; 56 x 36 cm.",
+      "repository_collection": "George F. Tyler Poster Collection",
+      "note": "Signed \"Hubert Chapin.\" Date based on America's participation in the war. Orientation: Vertical."
+    },
+    {
+      "title": "Lend as they fight",
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll9/id/4121",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll9:4121/manifest.json",
+      "country": "United States",
+      "themes": [
+        "War Bonds"
+      ],
+      "artist": "Sidney H. Riesenberg",
+      "printer": "E. Ketterlinus & Co.",
+      "publisher": "Phila. : Ketterlinus",
+      "contributor": "Riesenberg, Sidney H., artist.; E. Ketterlinus & Co., printer.",
+      "date": "1917 or 1918",
+      "language": "English",
+      "subjects": [
+        "Liberty bonds -- United States.",
+        "World War, 1914-1918 -- Propaganda.",
+        "War posters, American."
+      ],
+      "description": "Text says to buy more Liberty Bonds. Illustration shows two men fighting on the battlefield. One man is wounded.",
+      "physical_description": "1 poster : col. ; 76 x 51 cm.",
+      "repository_collection": "George F. Tyler Poster Collection",
+      "note": "Signed \"Sidney H. Riesenberg.\" Date based on America's participation in the war. Orientation: Vertical."
+    },
+    {
+      "title": "Feed the guns with war bonds",
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll9/id/4131",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll9:4131/manifest.json",
+      "country": "Great Britain",
+      "themes": [
+        "War Bonds"
+      ],
+      "artist": "Bert Thomas",
+      "publisher": "Place of publication not identified : publisher not identified",
+      "contributor": "Thomas, Bert, artist.",
+      "date": "1918",
+      "language": "English",
+      "subjects": [
+        "Savings bonds -- Great Britain.",
+        "World War, 1914-1918 -- Propaganda.",
+        "War posters -- Great Britain."
+      ],
+      "description": "Text says to feed the guns with war bonds and help to end the war. Illustration shows three military men on the battlefield.  A long roll of National War Bonds seems to be rolling out of their gun.",
+      "physical_description": "1 poster : col. ; 76 x 51 cm.",
+      "repository_collection": "George F. Tyler Poster Collection",
+      "note": "Signed \"Bert Thomas.\" \"No. 113\" appears on the bottom left of the poster. \"4-315. WT 21738/2798. 10,000. 2/18. G.P.Ltd E3719\" appears on the bottom right of the poster. Orientation:  Vertical."
+    },
+    {
+      "title": "Pour La France versez votre or",
+      "featured": true,
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll9/id/4115",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll9:4115/manifest.json",
+      "country": "France",
+      "themes": [
+        "War Bonds"
+      ],
+      "artist": "Abel Faivre",
+      "printer": "Devambez (Firm)",
+      "publisher": "[Paris] : Société des amis des artistes",
+      "contributor": "Faivre, Abel, 1867-1945, artist.; Société des amis des artistes, publisher.; Devambez (Firm), printer.",
+      "date": "1915",
+      "language": "French",
+      "subjects": [
+        "World War, 1914-1918 -- Finance -- France.",
+        "World War, 1914-1918 -- Propaganda.",
+        "War posters -- France."
+      ],
+      "description": "Text in French says to deposit your gold to help the war victory for France. Illustration shows a German soldier about to be crushed by a huge gold coin.",
+      "physical_description": "1 poster : col. ; 112 x 78 cm.",
+      "repository_collection": "George F. Tyler Poster Collection",
+      "note": "Signed \"Abel Faivre.\" Orientation: Vertical."
+    },
+    {
+      "title": "Prestito Nazionale",
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll9/id/4138",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll9:4138/manifest.json",
+      "country": "Italy",
+      "themes": [
+        "War Bonds"
+      ],
+      "artist": "M. Borgoni",
+      "publisher": "Bergamo : Officine Dell'Istituto Italiano D'Arti Grafiche",
+      "contributor": "Borgoni, M., artist.; Officine Dell'Istituto Italiano D'Arti Grafiche, publisher.",
+      "date": "1914-1918",
+      "language": "Italian",
+      "subjects": [
+        "Savings bonds -- Italy.",
+        "World War, 1914-1918 -- Propaganda.",
+        "War posters, Italian."
+      ],
+      "description": "Text in Italian tells of the need for a war loan. Illustration shows a man holding a flag and a sword.",
+      "physical_description": "1 poster : col. ; 97 x 69 cm.",
+      "repository_collection": "George F. Tyler Poster Collection",
+      "note": "Signed &quot;M. Borgoni.&quot; Date based on dates of 1st World War. Orientation: Vertical."
+    },
+    {
+      "title": "Share in the victory",
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll9/id/3990",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll9:3990/manifest.json",
+      "country": "United States",
+      "themes": [
+        "War Bonds"
+      ],
+      "artist": "Haskell Coffin",
+      "publisher": "Place of publication not identified : publisher not identified",
+      "contributor": "Coffin, Haskell, artist.",
+      "date": "1917 or 1918",
+      "language": "English",
+      "subjects": [
+        "Savings bonds -- United States.",
+        "World War, 1914-1918 -- Propaganda.",
+        "War posters, American."
+      ],
+      "description": "Text says to share in the victory and save the country by buying war savings stamps. Illustration shows a symbolic womens figure with wings holding a sword in one hand and a branch leaf in the other.",
+      "physical_description": "1 poster : ol. ; 76 x 51 cm.",
+      "repository_collection": "George F. Tyler Poster Collection",
+      "note": "Date based on America's participation in the war. Signed \"Haskell Coffin.\" \"WS-A2\" appears on the bottom left of the poster. Orientation: Vertical."
+    },
+    {
+      "title": "Tired of giving?",
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll9/id/4011",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll9:4011/manifest.json",
+      "country": "United States",
+      "themes": [
+        "War Work"
+      ],
+      "artist": "Jay N. (Jay Norwood) Darling",
+      "publisher": "[New York] : American Women's Hospitals",
+      "contributor": "Darling, Jay N. (Jay Norwood), 1876-1962, artist.; American Women's Hospitals, publisher.",
+      "date": "1917 or 1918",
+      "language": "English",
+      "subjects": [
+        "Fund raising -- United States.",
+        "Fund raising -- United States.",
+        "World War, 1914-1918 -- War work -- United States.",
+        "World War, 1914-1918 -- Propaganda.",
+        "War posters, American."
+      ],
+      "description": "Text says you should not be tired of giving because you don't know what it really is to be tired, so give and help these people. Illustration shows a women and child sitting among the ruins.",
+      "physical_description": "1 poster : b&w ; 53 x 44 cm.",
+      "repository_collection": "George F. Tyler Poster Collection",
+      "note": "Signed \"J.N. Ding.\" Date based on America's participation in the war. Orientation: Vertical."
+    },
+    {
+      "title": "Order coal now",
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll9/id/4014",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll9:4014/manifest.json",
+      "country": "United States",
+      "themes": [
+        "War Work"
+      ],
+      "artist": "J. C. Leyendecker",
+      "printer": "Edwards & Deutsch Litho. Co.",
+      "publisher": "[Washington, D.C.] : United States Fuel Administration",
+      "contributor": "Leyendecker, J. C., 1874-1951, artist.; United States. Fuel Administration, publisher.; Edwards & Deutsch Litho. Co., lithographer.",
+      "date": "1917 or 1918",
+      "language": "English",
+      "subjects": [
+        "World War, 1914-1918 -- War work -- United States.",
+        "World War, 1914-1918 -- Propaganda.",
+        "War posters, American."
+      ],
+      "description": "Text says to order coal now. Illustration shows a man on a horse and wagon.",
+      "physical_description": "1 poster : col. ; 74 x 51 cm.",
+      "repository_collection": "George F. Tyler Poster Collection",
+      "note": "Signed  \"J.C. Leyendecker.\" Date based on America's participation in the war. \"No. 2,\" appears on the bottom left of the poster. Orientation: Vertical."
+    },
+    {
+      "title": "Enlisted for duration of the war",
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll9/id/3947",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll9:3947/manifest.json",
+      "country": "Great Britain",
+      "themes": [
+        "War Work",
+        "Food/Conservation"
+      ],
+      "artist": "R. G. Praill",
+      "publisher": "London : Avenue Press",
+      "contributor": "Praill, R. G., artist.; Avenue Press, publisher.",
+      "date": "1914-1918",
+      "language": "English",
+      "subjects": [
+        "World War, 1914-1918 -- War work -- Great Britain.",
+        "World War, 1914-1918 -- War work -- Great Britain.",
+        "Food conservation -- Great Britain.",
+        "World War, 1914-1918 -- Propaganda.",
+        "War posters -- Great Britain."
+      ],
+      "description": "Text says to help the national egg collection for the wounded. Illustration shows a hen.",
+      "physical_description": "1 poster : col. ; 48 x 75 cm.",
+      "repository_collection": "George F. Tyler Poster Collection",
+      "note": "Signed \"R.G. Praill.\" Date based on dates of 1st World War. Orientation: Vertical."
+    },
+    {
+      "title": "Ligue Maritime Française",
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll9/id/3971",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll9:3971/manifest.json",
+      "country": "France",
+      "themes": [
+        "War Work"
+      ],
+      "artist": "Charles Fouqueray",
+      "publisher": "Place of publication not identified : publisher not identified",
+      "contributor": "Fouqueray, Charles, 1869-1956, artist.",
+      "date": "1918",
+      "language": "French",
+      "subjects": [
+        "World War, 1914-1918 -- War work -- France.",
+        "World War, 1914-1918 -- Propaganda.",
+        "War posters -- France."
+      ],
+      "description": "Text if French tells of the French Maritime League. Illustration shows men working on a ship.",
+      "physical_description": "1 poster : col. ; 119 x 78 cm.",
+      "repository_collection": "George F. Tyler Poster Collection",
+      "note": "Signed \"D. Charles Fouqueray.\" \"Visa No. 14375\" appears on bottom of poster. Orientation: Vertical."
+    },
+    {
+      "title": "\"The spirit of woman-power\"",
+      "featured": true,
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll9/id/4003",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll9:4003/manifest.json",
+      "country": "United States",
+      "themes": [
+        "Women"
+      ],
+      "artist": "Paul Honoré",
+      "printer": "Niagara Litho. Co.",
+      "publisher": "[Washington, D.C.] : Woman's Committee of Council of National Defense",
+      "contributor": "Honoré, Paul, 1885-1956, artist.; Niagara Litho. Co., lithographer.; United States. Woman's Committee of Council of National Defense.",
+      "date": "1917 or 1918",
+      "language": "English",
+      "subjects": [
+        "World War, 1914-1918 -- Women -- United States.",
+        "World War, 1914-1918 -- Propaganda.",
+        "War posters, American."
+      ],
+      "description": "Text encourages women to register to serve their country however they can. Illustration shows a woman playing the drums as she leads other women on a march.",
+      "physical_description": "1 poster : col. ; 102 x 76 cm.",
+      "repository_collection": "George F. Tyler Poster Collection",
+      "note": "Signed \"Paul Honoré.\" Date based on America's participation in the war. Orientation: Vertical."
+    },
+    {
+      "title": "Wanted 25000 student nurses",
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll9/id/4074",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll9:4074/manifest.json",
+      "country": "United States",
+      "themes": [
+        "War Work",
+        "Women"
+      ],
+      "artist": "Milton Bancroft",
+      "printer": "John H. Eggers Company",
+      "publisher": "Place of publication not identified : Woman's Committee of the Council of National Defense John H. Eggers Company.",
+      "contributor": "Bancroft, Milton, artist.; John H. Eggers Company, printer.; Council of National Defense. Woman's Committee, publisher.",
+      "date": "1917 or 1918",
+      "language": "English",
+      "subjects": [
+        "Women in war -- United States.",
+        "World War, 1914-1918 -- Propaganda.",
+        "World War, 1914-1918 -- War work -- United States.",
+        "War posters, American."
+      ],
+      "description": "Text says that student nurses are needed in the U.S. Student Nurse Reserve. Illustration is a drawing of a nurse.",
+      "physical_description": "1 poster : col. ; 107 x 70 cm.",
+      "repository_collection": "George F. Tyler Poster Collection",
+      "note": "Signed \"Milton Bancroft.\" Date based on America's participation in the war. Orientation: Vertical."
+    },
+    {
+      "title": "For food production forage & timber",
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll9/id/3952",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll9:3952/manifest.json",
+      "country": "Great Britain",
+      "themes": [
+        "War Work",
+        "Women"
+      ],
+      "printer": "J. W. Ltd.",
+      "publisher": "Place of publication not identified : J.W. Ltd.",
+      "contributor": "J. W. Ltd., printer.",
+      "date": "1918",
+      "language": "English",
+      "subjects": [
+        "Women in war -- Great Britain.",
+        "World War, 1914-1918 -- Propaganda.",
+        "World War,1914-1918 -- War work -- Great Britain.",
+        "War posters -- Great Britain."
+      ],
+      "description": "Text says that recruits are required immediately for the Women's Land Army so enrol today. Illustration shows a women with a cow, holding a bucket.",
+      "physical_description": "1 poster : col. ; 76 x 50 cm.",
+      "repository_collection": "George F. Tyler Poster Collection",
+      "note": "\"M 106 B2919 W1-24760/205 50 M 4/18\" appears on bottom left of poster. Orientation: Vertical."
+    },
+    {
+      "title": "Mother's Day : August 8",
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll9/id/3940",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll9:3940/manifest.json",
+      "country": "Great Britain",
+      "themes": [
+        "Women"
+      ],
+      "artist": "E. Cofpin",
+      "printer": "Vincent Brooks Day & Son",
+      "publisher": "London : Vincent Brooks Day & Son Ltd.",
+      "contributor": "Cofpin, E., artist.; Vincent Brooks Day & Son, lithographer.",
+      "date": "1914-1918",
+      "language": "English",
+      "subjects": [
+        "Women in war -- Great Britain.",
+        "World War, 1914-1918 -- Propaganda.",
+        "War posters -- Great Britain."
+      ],
+      "description": "Text says Mother's Day is August 8th. Do not forget. Illustration shows a women reading a letter from her son. The photograph of a uniformed military man is on the table near her. The top of poster shows a military man running with his weapon.",
+      "physical_description": "1 poster : b&w ; 75 x 50 cm.",
+      "repository_collection": "George F. Tyler Poster Collection",
+      "note": "Signed \"E. Cofpin.\" Date based on dates of 1st World War. Orientation: Vertical."
+    },
+    {
+      "title": "Save the products of the land",
+      "featured": true,
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll9/id/4013",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll9:4013/manifest.json",
+      "country": "United States",
+      "themes": [
+        "Food/Conservation"
+      ],
+      "artist": "Charles Livingston Bull",
+      "printer": "Heywood Strasser & Voigt Litho Co",
+      "publisher": "[Washington, D.C.] : United States Food Administration",
+      "contributor": "Bull, Charles Livingston, 1874-1932, artist.; United States Food Administration, publisher.; Heywood Strasser & Voigt Litho Co, lithographer.",
+      "date": "1917 or 1918",
+      "language": "English",
+      "subjects": [
+        "Food conservation -- United States.",
+        "World War, 1914-1918 -- Propaganda.",
+        "War posters, American."
+      ],
+      "description": "Text says to save the products of the land by eating more fish because they feed themselves. Illustration shows fish in the water.",
+      "physical_description": "1 poster : col. ; 76 x 51 cm.",
+      "repository_collection": "George F. Tyler Poster Collection",
+      "note": "Signed \"Charles Livingston Bull.\" Date based on America's participation in the war. \"No. 13\" appears on the bottom left of the poster. Orientation: Vertical."
+    },
+    {
+      "title": "Uncle Sam needs that extra Shovelful",
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll9/id/4015",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll9:4015/manifest.json",
+      "country": "United States",
+      "themes": [
+        "Food/Conservation"
+      ],
+      "artist": "F. Sindelar",
+      "printer": "Latham Litho & Ptg. Co.",
+      "publisher": "[Washington, D.C.] : United States Fuel Administration",
+      "contributor": "Sindelar, F., artist.; United States. Fuel Administration, publisher.; Latham Litho & Ptg. Co., lithographer.",
+      "date": "1918",
+      "language": "English",
+      "subjects": [
+        "Materials -- Conservation -- United States.",
+        "World War, 1914-1918 -- Propaganda.",
+        "War posters, American."
+      ],
+      "description": "Text says that Uncle Sam needs that extra shovelful of coal to preserve a soldier's life. So save the coal. Illustration shows Uncle Sam standing behind a man shoveling the coal into the furnace.",
+      "physical_description": "1 poster : col. ; 69 x 52 cm.",
+      "repository_collection": "George F. Tyler Poster Collection",
+      "note": "Signed  \"F. Sindelar.\" Orientation: Vertical."
+    },
+    {
+      "title": "Sugar means ships",
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll9/id/4112",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll9:4112/manifest.json",
+      "country": "United States",
+      "themes": [
+        "Food/Conservation"
+      ],
+      "artist": "E. Judson",
+      "publisher": "[Washington, D.C.] : United States Food Administration",
+      "contributor": "Judson, E., artist.; United States Food Administration, publisher.; Carey Printing Company, printing.",
+      "date": "1917 or 1918",
+      "language": "English",
+      "subjects": [
+        "Food conservation -- United States.",
+        "World War, 1914-1918 -- Propaganda.",
+        "War posters, American."
+      ],
+      "description": "Text says that the consumption of sugar sweetened drinks must be reduced, because the ships which would deliver the sugar for the drinks are needed to carry soldier's and supplies. Illustration shows a women drinking with a straw as a bunch of tiny ships marked \"sugar\"  go in her direction while other little ships marked \"supplies\" and \"soldiers\" go in the direction of the \"war.\"",
+      "physical_description": "1 poster : b&w ; 40 x 49 cm.",
+      "repository_collection": "George F. Tyler Poster Collection",
+      "note": "Signed \"E. Judson\" (?) Date based on America's participation in the war. Orientation: Horizontal"
+    },
+    {
+      "title": "Eat no eggs in Easter week",
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll9/id/3946",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll9:3946/manifest.json",
+      "country": "Great Britain",
+      "themes": [
+        "Food/Conservation"
+      ],
+      "publisher": "Place of publication not identified : publisher not identified",
+      "contributor": "",
+      "date": "1916",
+      "language": "English",
+      "subjects": [
+        "Food conservation -- Great Britain.",
+        "World War, 1914-1918 -- Propaganda.",
+        "War posters -- Great Britain."
+      ],
+      "description": "Text says to give eggs to the wounded during Easter week. Illustration shows a man on crutches pointing to a calender which is marked off on dates in April which are Easter week.",
+      "physical_description": "1 poster : col. ; 77 x 51 cm.",
+      "repository_collection": "George F. Tyler Poster Collection",
+      "note": "Orientation: Vertical."
+    },
+    {
+      "title": "British Empire Union",
+      "featured": true,
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll9/id/3961",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll9:3961/manifest.json",
+      "country": "Great Britain",
+      "themes": [
+        "Anti-German Propaganda"
+      ],
+      "artist": "David Wilson",
+      "printer": "Globe Printing Co.",
+      "publisher": "London : British Empire Union",
+      "contributor": "Wilson, David, artist.; British Empire Union, publisher.; Globe Printing Co., printer.",
+      "date": "1914-1918",
+      "language": "English",
+      "subjects": [
+        "Propaganda, Anti-German -- Great Britain.",
+        "World War, 1914-1918 -- Propaganda.",
+        "War posters -- Great Britain."
+      ],
+      "description": "Text says to remember that Germans are not to be trusted. Once a German, always a German! Every German employed means that a British worker would be idle. Illustrations show five different depictions of German men being barbarian in the war. One depiction shows a German man dressed in a suit, tipping his hat to be polite, with the words \"1914-1918, Never again!\"",
+      "physical_description": "1 poster : col. ; 76 x 50 cm.",
+      "repository_collection": "George F. Tyler Poster Collection",
+      "note": "Signed \"David Wilson\" + \"WFB.\" Date based on dates of 1st World War. Orientation: Vertical."
+    },
+    {
+      "title": "Save your child",
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll9/id/4301",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll9:4301/manifest.json",
+      "country": "United States",
+      "themes": [
+        "War Bonds",
+        "Anti-German Propaganda"
+      ],
+      "publisher": "[U.S. : publisher not identified",
+      "contributor": "",
+      "date": "1918",
+      "language": "English",
+      "subjects": [
+        "Liberty bonds -- United States.",
+        "World War, 1914-1918 -- Propaganda.",
+        "World War, 1914-1918 -- Finance -- United States.",
+        "Propaganda, Anti-German -- United States.",
+        "War posters, American."
+      ],
+      "description": "A poster for the Third Liberty Loan campaign.  The text says \"Save your child from German barbarism\" by huying government bonds. The illustration shows a dead woman with two young children dead next to her.",
+      "physical_description": "1 poster : col. ; 56 x 71 cm.",
+      "repository_collection": "George F. Tyler Poster Collection",
+      "note": "Date of issue based on the date of the Third Liberty Loan campaign. Orientation: Horizontal."
+    },
+    {
+      "title": "Souvenez-vous de la Belgique",
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll9/id/4124",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll9:4124/manifest.json",
+      "country": "France",
+      "themes": [
+        "Anti-German Propaganda"
+      ],
+      "printer": "David Allen & Sons",
+      "publisher": "Harrow : David Allen & Sons Ld.",
+      "contributor": "David Allen & Sons, printer, publisher.",
+      "date": "1914-1918",
+      "language": "French",
+      "subjects": [
+        "Propaganda, Anti-German -- France.",
+        "World War, 1914-1918 -- Propaganda.",
+        "War posters -- France.",
+        "France -- Foreign relations -- Belgium."
+      ],
+      "description": "Text in French says to remember Belgium and the north of France. Poster also says to not buy anything German. Illustration shows a German soldier stepping on the body of a Belgian women and her infant.",
+      "physical_description": "1 poster : col. ; 75 x 50 cm.",
+      "repository_collection": "George F. Tyler Poster Collection",
+      "note": "Date based on dates of 1st World War. \"No. 0198\" appears on the bottom left of the illustration. Orientation: Vertical."
+    },
+    {
+      "title": "Remember the Lusitania",
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll9/id/4167",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll9:4167/manifest.json",
+      "country": "Great Britain",
+      "themes": [
+        "Recruitment",
+        "Anti-German Propaganda"
+      ],
+      "printer": "David Allen & Sons",
+      "publisher": "London : Parliamentary Recruiting Committee",
+      "contributor": "David Allen & Sons, printer.; Great Britain. Parliamentary Recruiting Committee, publisher.",
+      "date": "1915",
+      "language": "English",
+      "subjects": [
+        "World War, 1914-1918 -- Naval operations, German.",
+        "World War, 1914-1918 -- Propaganda.",
+        "Propaganda, Anti-German -- Great Britain.",
+        "War posters -- Great Britain.",
+        "Great Britain -- Armed forces -- Recruiting, enlistment, etc. -- World War, 1914-1918."
+      ],
+      "series": "Poster (Great Britain. Parliamentary Recruiting Committee) ; no. 90.",
+      "description": "Text says to remember The Lusitania, which was attacked and sunk by the Germans. It is important to enlist to-day. No pictorial content.",
+      "physical_description": "1 poster : col. ; 200 x 150 cm.",
+      "repository_collection": "George F. Tyler Poster Collection",
+      "note": "\"Poster No. 90\" appears on the bottom right of the poster. \"5M-5/15\" appears on the bottom right of the poster. Orientation: Horizontal."
+    },
+    {
+      "title": "America calls",
+      "featured": true,
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll9/id/4007",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll9:4007/manifest.json",
+      "country": "United States",
+      "themes": [
+        "Recruitment"
+      ],
+      "artist": "J. C. Leyendecker",
+      "printer": "United States. Navy Publicity Bureau",
+      "publisher": "New York : U.S. Navy Publicity Bureau",
+      "contributor": "Leyendecker, J. C., 1874-1951, artist.; United States. Navy Publicity Bureau, printer.; Beck Engraving Co., engraver.",
+      "date": "1917 or 1918",
+      "language": "English",
+      "subjects": [
+        "World War, 1914-1918 -- Propaganda.",
+        "War posters, American."
+      ],
+      "description": "Text says that America calls you to enlist in the Navy. Illustration shows a sailor shaking the hand of the Statue of Liberty.",
+      "physical_description": "1 poster : col. ; 101 x 71 cm.",
+      "repository_collection": "George F. Tyler Poster Collection",
+      "note": "Signed \"J.C. Leyendecker.\" Date based on America's participation in the war. Orientation: Vertical."
+    },
+    {
+      "title": "Remember!",
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll9/id/3956",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll9:3956/manifest.json",
+      "country": "Great Britain",
+      "themes": [
+        "General Propaganda"
+      ],
+      "artist": "H. L. Oakley",
+      "printer": "Chorley & Pickersgill",
+      "publisher": "Place of publication not identified : publisher not identified",
+      "contributor": "Oakley, H. L., artist.; Chorley & Pickersgill, printer.",
+      "date": "1914-1918",
+      "language": "English",
+      "subjects": [
+        "World War, 1914-1918 -- Propaganda.",
+        "War posters -- Great Britain."
+      ],
+      "description": "A recruiting poster. Text says that if your between 15 1/2 and 40, join the navy. Illustration shows shadow figures of navy men.",
+      "physical_description": "1 poster : col. ; 50 x 76 cm.",
+      "repository_collection": "George F. Tyler Poster Collection",
+      "note": "Signed \"H.L. Oakley.\" Date based on dates of 1st World War. Orientation: Horizontal."
+    },
+    {
+      "title": "Journée des régions libérées",
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll9/id/4044",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll9:4044/manifest.json",
+      "country": "France",
+      "themes": [
+        "General Propaganda"
+      ],
+      "artist": "Théophile Alexandre Steinlen",
+      "printer": "Lapina",
+      "publisher": "Paris : Lapina",
+      "contributor": "Steinlen, Théophile Alexandre, 1859-1923, artist.; Lapina, printer.",
+      "date": "1919",
+      "language": "French",
+      "subjects": [
+        "Fund raising -- France.",
+        "World War, 1914-1918 -- Propaganda.",
+        "War posters -- France."
+      ],
+      "description": "Text in French tells of a day for the liberated regions to benefit and give aid to the sad brothers. Illustrations shows a cross gravestone with a bird sitting on the top.",
+      "physical_description": "1 poster : col. ; 120 x 79 cm.",
+      "repository_collection": "George F. Tyler Poster Collection",
+      "note": "Signed \"Steinlen.\" \"Visa No. 16.488\" appears on the left border of poster. Orientation: Vertical."
+    },
+    {
+      "title": "L'Alarme",
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll9/id/3936",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll9:3936/manifest.json",
+      "country": "France",
+      "themes": [
+        "General Propaganda"
+      ],
+      "artist": "Charles Léandre",
+      "printer": "Devambez (Firm)",
+      "publisher": "Paris : publisher not identified",
+      "contributor": "Léandre, Charles, 1862-1934, artist.; Devambez (Firm), printer.",
+      "date": "1918",
+      "language": "French",
+      "subjects": [
+        "World War, 1914-1918 -- Health aspects -- France.",
+        "Alcoholism -- France.",
+        "World War, 1914-1918 -- Propaganda.",
+        "War posters -- France."
+      ],
+      "description": "Text in French tells of all the dangers of alcoholism. The poster tells people to stop drinking alcohol. Illustration shows a family with four children who are in very bad, and neglected condition and appear to be suffering.",
+      "physical_description": "1 poster : col. ; 21 x 33 cm.",
+      "repository_collection": "George F. Tyler Poster Collection",
+      "note": "Signed \"C. Léandre.\"  Orientation: Vertical."
+    }
+  ]
+}

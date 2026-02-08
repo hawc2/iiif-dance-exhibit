@@ -1,0 +1,57 @@
+{{- $item := . -}}
+{{- $image := "" -}}
+{{- $service := "" -}}
+{{- $manifest := (resources.GetRemote $item.manifest) | transform.Unmarshal -}}
+{{- $seq := index $manifest.sequences 0 -}}
+{{- if $seq -}}
+  {{- $canvas := index $seq.canvases 0 -}}
+  {{- if $canvas -}}
+    {{- $img := index $canvas.images 0 -}}
+    {{- if $img -}}
+      {{- $res := $img.resource -}}
+      {{- if $res -}}
+        {{- $resId := index $res "@id" -}}
+        {{- if $resId -}}
+          {{- $image = $resId -}}
+        {{- end -}}
+        {{- $svc := index $res "service" -}}
+        {{- if $svc -}}
+          {{- $svcId := index $svc "@id" -}}
+          {{- if $svcId -}}
+            {{- $service = $svcId -}}
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+    {{- if eq $image "" -}}
+      {{- $thumb := index $canvas "thumbnail" -}}
+      {{- if $thumb -}}
+        {{- $thumbObj := $thumb -}}
+        {{- if reflect.IsSlice $thumb -}}
+          {{- $thumbObj = index $thumb 0 -}}
+        {{- end -}}
+        {{- $thumbId := index $thumbObj "@id" -}}
+        {{- if $thumbId -}}
+          {{- $image = $thumbId -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- if eq $image "" -}}
+  {{- $manifestThumb := index $manifest "thumbnail" -}}
+  {{- if $manifestThumb -}}
+    {{- $thumbObj := $manifestThumb -}}
+    {{- if reflect.IsSlice $manifestThumb -}}
+      {{- $thumbObj = index $manifestThumb 0 -}}
+    {{- end -}}
+    {{- $thumbId := index $thumbObj "@id" -}}
+    {{- if $thumbId -}}
+      {{- $image = $thumbId -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- if and (eq $image "") (ne $service "") -}}
+  {{- $image = printf "%s/full/full/0/default.jpg" $service -}}
+{{- end -}}
+{{- return $image -}}

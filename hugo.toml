@@ -1,0 +1,7 @@
+baseURL = "https://hawc2.github.io/iiif-dance-exhibit/"
+languageCode = "en-us"
+title = "Philadelphia Dance: IIIF Exhibit"
+disableKinds = ["taxonomy", "term", "RSS", "sitemap"]
+
+[params]
+  description = "A curated IIIF exhibit showcasing dance in Philadelphia from Temple University Libraries' collections."

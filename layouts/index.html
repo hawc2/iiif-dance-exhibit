@@ -1,0 +1,152 @@
+{{ define "main" }}
+{{ $data := site.Data.dance }}
+{{ $items := $data.items }}
+
+{{ $featured := where $items "featured" true }}
+{{ $heroItem := index $featured 0 }}
+{{ $heroImage := partial "iiif-image.html" $heroItem }}
+
+<section class="hero wrap">
+  <div class="frontispiece">
+    <img src="{{ $heroImage }}" alt="{{ $heroItem.title }}" loading="eager" decoding="async" />
+  </div>
+  <p class="kicker">IIIF Exhibit</p>
+  <h1>{{ .Title }}</h1>
+  <p class="lead">A curated selection of photographs documenting Philadelphia's dance heritage, drawn from the <a href="{{ $data.collection.collection_page }}" target="_blank" rel="noopener">{{ $data.collection.title }}</a> and related archives at Temple University Libraries. All images are served via the <a href="{{ $data.collection.manifest }}" target="_blank" rel="noopener">IIIF collection manifest</a>.</p>
+</section>
+
+{{ $.Scratch.Set "company" (dict) }}
+{{ $.Scratch.Set "theme" (dict) }}
+{{ $.Scratch.Set "year" (dict) }}
+
+{{ range $items }}
+  {{ $companyCounts := $.Scratch.Get "company" }}
+  {{ $companyKey := .company }}
+  {{ $companyValue := index $companyCounts $companyKey | default 0 }}
+  {{ $.Scratch.Set "company" (merge $companyCounts (dict $companyKey (add $companyValue 1))) }}
+
+  {{ $themeCounts := $.Scratch.Get "theme" }}
+  {{ range .themes }}
+    {{ $themeKey := . }}
+    {{ $themeValue := index $themeCounts $themeKey | default 0 }}
+    {{ $themeCounts = merge $themeCounts (dict $themeKey (add $themeValue 1)) }}
+  {{ end }}
+  {{ $.Scratch.Set "theme" $themeCounts }}
+
+  {{ $yearCounts := $.Scratch.Get "year" }}
+  {{ $yearKey := .date }}
+  {{ $yearValue := index $yearCounts $yearKey | default 0 }}
+  {{ $.Scratch.Set "year" (merge $yearCounts (dict $yearKey (add $yearValue 1))) }}
+{{ end }}
+
+<section class="breakdowns wrap">
+  <div class="section-title">
+    <h2>Category breakdowns</h2>
+    <p>Counts reflect the curated set shown on this page.</p>
+  </div>
+  <div class="breakdown-grid">
+    <div class="panel">
+      <h3>Dance Company</h3>
+      <ul class="count-list">
+        {{ range $key, $val := $.Scratch.Get "company" }}
+          <li><span>{{ $key }}</span><span>{{ $val }}</span></li>
+        {{ end }}
+      </ul>
+    </div>
+    <div class="panel">
+      <h3>Theme</h3>
+      <ul class="count-list">
+        {{ range $key, $val := $.Scratch.Get "theme" }}
+          <li><span><a href="{{ printf "themes/%s/" ($key | urlize) | relURL }}">{{ $key }}</a></span><span>{{ $val }}</span></li>
+        {{ end }}
+      </ul>
+    </div>
+    <div class="panel">
+      <h3>Date / Period</h3>
+      <ul class="count-list">
+        {{ range $key, $val := $.Scratch.Get "year" }}
+          <li><span>{{ $key }}</span><span>{{ $val }}</span></li>
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="gallery wrap">
+  <div class="section-title">
+    <h2>Featured photographs</h2>
+    <p>A curated selection across themes. Images served via the IIIF Image API.</p>
+  </div>
+  <div class="card-grid">
+    {{ range $index, $item := $featured }}
+      {{ $image := partial "iiif-image.html" $item }}
+      <article class="card reveal" style="--delay: {{ mul $index 0.06 }}s;">
+        <a class="image-link" href="{{ $item.record }}" target="_blank" rel="noopener">
+          <div class="image-frame">
+            <img
+              src="{{ $image }}"
+              alt="{{ $item.title }}"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+        </a>
+        <div class="card-body">
+          <h3>{{ $item.title }}</h3>
+          <p class="meta">{{ $item.company }} · {{ $item.date }}{{ with $item.photographer }} · {{ . }}{{ end }}{{ with $item.performers }} · {{ . }}{{ end }}</p>
+          <p class="summary">{{ $item.description }}</p>
+          <div class="chip-row">
+            {{ range $item.themes }}<a class="chip link" href="{{ printf "themes/%s/" (. | urlize) | relURL }}">{{ . }}</a>{{ end }}
+          </div>
+          {{ with $item.subjects }}<div class="chip-row">
+            {{ range . }}<span class="chip">{{ . }}</span>{{ end }}
+          </div>{{ end }}
+        </div>
+      </article>
+    {{ end }}
+  </div>
+</section>
+
+{{ $themePages := where site.RegularPages "Section" "themes" }}
+<section class="themes-browse wrap">
+  <div class="section-title">
+    <h2>Browse by theme</h2>
+    <p>{{ len $themePages }} themes · {{ len $items }} photographs in total</p>
+  </div>
+  <div class="theme-grid">
+    {{ range $themePages }}
+      {{ $subthemes := .Params.subthemes }}
+      {{ $themeItems := slice }}
+      {{ if $subthemes }}
+        {{ range $subthemes }}
+          {{ $sub := where $items "themes" "intersect" (slice .theme) }}
+          {{ $themeItems = $themeItems | append $sub }}
+        {{ end }}
+      {{ else }}
+        {{ $themeItems = where $items "themes" "intersect" (slice .Params.theme) }}
+      {{ end }}
+      {{ $first := index $themeItems 0 }}
+      {{ $image := partial "iiif-image.html" $first }}
+      <a class="theme-card" href="{{ .RelPermalink }}">
+        <div class="theme-card-image">
+          <img src="{{ $image }}" alt="{{ .Title }}" loading="lazy" decoding="async" />
+        </div>
+        <div class="theme-card-body">
+          <h3>{{ .Title }}</h3>
+          <p class="meta">{{ len $themeItems }} photographs</p>
+          <p class="summary">{{ .Params.description }}</p>
+        </div>
+      </a>
+    {{ end }}
+  </div>
+</section>
+
+<section class="cta wrap">
+  <div class="cta-card">
+    <div>
+      <h2>Explore the full collection</h2>
+      <p>The {{ $data.collection.title }} at Temple University Libraries includes hundreds of photographs beyond this curated set. Browse the <a href="{{ $data.collection.collection_page }}" target="_blank" rel="noopener">full digital collection</a> or use the <a href="{{ $data.collection.manifest }}" target="_blank" rel="noopener">IIIF manifest</a> to build your own exhibit.</p>
+    </div>
+  </div>
+</section>
+{{ end }}
