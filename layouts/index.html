@@ -20,10 +20,12 @@
 {{ $.Scratch.Set "year" (dict) }}
 
 {{ range $items }}
-  {{ $companyCounts := $.Scratch.Get "company" }}
-  {{ $companyKey := .company }}
-  {{ $companyValue := index $companyCounts $companyKey | default 0 }}
-  {{ $.Scratch.Set "company" (merge $companyCounts (dict $companyKey (add $companyValue 1))) }}
+  {{ $companyKey := .company | default "" }}
+  {{ if $companyKey }}
+    {{ $companyCounts := $.Scratch.Get "company" }}
+    {{ $companyValue := index $companyCounts $companyKey | default 0 }}
+    {{ $.Scratch.Set "company" (merge $companyCounts (dict $companyKey (add $companyValue 1))) }}
+  {{ end }}
 
   {{ $themeCounts := $.Scratch.Get "theme" }}
   {{ range .themes }}
@@ -33,10 +35,12 @@
   {{ end }}
   {{ $.Scratch.Set "theme" $themeCounts }}
 
-  {{ $yearCounts := $.Scratch.Get "year" }}
-  {{ $yearKey := .date }}
-  {{ $yearValue := index $yearCounts $yearKey | default 0 }}
-  {{ $.Scratch.Set "year" (merge $yearCounts (dict $yearKey (add $yearValue 1))) }}
+  {{ $yearKey := .date | default "" }}
+  {{ if $yearKey }}
+    {{ $yearCounts := $.Scratch.Get "year" }}
+    {{ $yearValue := index $yearCounts $yearKey | default 0 }}
+    {{ $.Scratch.Set "year" (merge $yearCounts (dict $yearKey (add $yearValue 1))) }}
+  {{ end }}
 {{ end }}
 
 <section class="breakdowns wrap">
@@ -100,6 +104,9 @@
           </div>
           {{ with $item.subjects }}<div class="chip-row">
             {{ range . }}<span class="chip">{{ . }}</span>{{ end }}
+          </div>{{ end }}
+          {{ with $item.visual_tags }}<div class="chip-row">
+            {{ range . }}<span class="chip ai-tag">{{ . }}</span>{{ end }}
           </div>{{ end }}
         </div>
       </article>

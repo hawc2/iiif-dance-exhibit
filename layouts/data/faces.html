@@ -1,0 +1,89 @@
+{{ define "main" }}
+{{ $items := site.Data.dance.items }}
+{{ $enriched := where $items "visual_tags" "ne" nil }}
+
+{{ $faces    := where $enriched "face_detected" true }}
+{{ $nonfaces := where $enriched "face_detected" false }}
+
+<section class="hero">
+  <div class="wrap">
+    <p class="eyebrow"><a href="{{ "data/" | relURL }}">Collections as Data</a></p>
+    <h1>{{ .Title }}</h1>
+    <p class="lead">{{ .Params.description }}</p>
+    <p class="lead" style="margin-top:16px;">Face detection was performed via CLIP zero-shot classification: each image was scored against two prompts — <em>"a portrait where one or more faces are clearly visible"</em> and <em>"a photo where no faces are clearly visible"</em> — and classified by whichever scored higher. Of {{ len $enriched }} photographs analyzed, <strong>{{ len $faces }}</strong> were classified as portraits and <strong>{{ len $nonfaces }}</strong> as non-portraits.</p>
+  </div>
+</section>
+
+<section class="breakdowns wrap">
+  <div class="breakdown-grid">
+    <div class="panel">
+      <h3>Results</h3>
+      <ul class="count-list">
+        <li><span>Portraits (face detected)</span><span>{{ len $faces }}</span></li>
+        <li><span>Non-portrait</span><span>{{ len $nonfaces }}</span></li>
+        <li><span>Total analyzed</span><span>{{ len $enriched }}</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+{{ if $faces }}
+<section class="gallery wrap">
+  <div class="section-title">
+    <h2>Portraits — face detected ({{ len $faces }})</h2>
+    <p>Images where CLIP found faces to be the dominant visual element.</p>
+  </div>
+  <div class="card-grid">
+    {{ range $index, $item := $faces }}
+      {{ $image := $item.image_url }}
+      {{ if eq $image "" }}{{ $image = partial "iiif-image.html" $item }}{{ end }}
+      <article class="card reveal" style="--delay: {{ mul $index 0.04 }}s;">
+        <a class="image-link" href="{{ $item.record }}" target="_blank" rel="noopener">
+          <div class="image-frame">
+            <img src="{{ $image }}" alt="{{ $item.title }}" loading="lazy" decoding="async" />
+            <span class="face-badge" title="Face detected">&#128065;</span>
+          </div>
+        </a>
+        <div class="card-body">
+          <h3>{{ $item.title }}</h3>
+          <p class="meta">{{ $item.date }}</p>
+          {{ with $item.visual_tags }}<div class="chip-row">
+            {{ range . }}<span class="chip ai-tag">{{ . }}</span>{{ end }}
+          </div>{{ end }}
+        </div>
+      </article>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+
+{{ if $nonfaces }}
+<section class="gallery wrap">
+  <div class="section-title">
+    <h2>Non-portrait — body or group dominant ({{ len $nonfaces }})</h2>
+    <p>Images focused on movement, gesture, or ensemble rather than individual faces.</p>
+  </div>
+  <div class="card-grid">
+    {{ range $index, $item := $nonfaces }}
+      {{ $image := $item.image_url }}
+      {{ if eq $image "" }}{{ $image = partial "iiif-image.html" $item }}{{ end }}
+      <article class="card reveal" style="--delay: {{ mul $index 0.04 }}s;">
+        <a class="image-link" href="{{ $item.record }}" target="_blank" rel="noopener">
+          <div class="image-frame">
+            <img src="{{ $image }}" alt="{{ $item.title }}" loading="lazy" decoding="async" />
+          </div>
+        </a>
+        <div class="card-body">
+          <h3>{{ $item.title }}</h3>
+          <p class="meta">{{ $item.date }}</p>
+          {{ with $item.visual_tags }}<div class="chip-row">
+            {{ range . }}<span class="chip ai-tag">{{ . }}</span>{{ end }}
+          </div>{{ end }}
+        </div>
+      </article>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+
+{{ end }}

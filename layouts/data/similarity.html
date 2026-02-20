@@ -1,0 +1,43 @@
+{{ define "main" }}
+{{ $items := site.Data.dance.items }}
+{{ $enriched := where $items "similar_items" "ne" nil }}
+
+<section class="hero">
+  <div class="wrap">
+    <p class="eyebrow"><a href="{{ "data/" | relURL }}">Collections as Data</a></p>
+    <h1>{{ .Title }}</h1>
+    <p class="lead">{{ .Params.description }}</p>
+    <p class="lead" style="margin-top:16px;">Each photograph was encoded as a 512-dimensional vector using CLIP. Cosine similarity between these vectors measures how visually alike two images are — high similarity means similar composition, subject matter, and visual texture. Each row below shows one photograph alongside its three nearest neighbors across all {{ len $items }} items in the collection. The teal border marks the reference image.</p>
+  </div>
+</section>
+
+<section class="similar-browse wrap">
+  <div class="section-title">
+    <h2>{{ len $enriched }} photographs · top 3 nearest neighbors each</h2>
+  </div>
+  {{ range $enriched }}
+    {{ if .similar_items }}
+    <div class="similarity-row">
+      <div class="similarity-anchor">
+        <a href="{{ .record }}" target="_blank" rel="noopener">
+          <img src="{{ .image_url }}" alt="{{ .title }}" loading="lazy" decoding="async" />
+        </a>
+        <p class="similarity-label">{{ .title }}</p>
+      </div>
+      <div class="similarity-matches">
+        {{ range .similar_items }}
+          {{ $sid := . }}
+          {{ $sim := index (where $items "id" $sid) 0 }}
+          {{ if $sim }}
+          <a class="similarity-thumb" href="{{ $sim.record }}" target="_blank" rel="noopener" title="{{ $sim.title }}">
+            <img src="{{ $sim.image_url }}" alt="{{ $sim.title }}" loading="lazy" decoding="async" />
+            <span class="similarity-thumb-label">{{ $sim.title }}</span>
+          </a>
+          {{ end }}
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+  {{ end }}
+</section>
+{{ end }}

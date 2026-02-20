@@ -15,10 +15,20 @@
       </div>
     </a>
     <nav class="header-nav">
-      {{ $themePages := where site.RegularPages "Section" "themes" }}
-      {{ range $themePages }}
-        <a class="nav-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
-      {{ end }}
+      <div class="nav-group">
+        <span class="nav-group-label">Exhibits</span>
+        {{ $themePages := where site.RegularPages "Section" "themes" }}
+        {{ range $themePages }}
+          <a class="nav-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
+        {{ end }}
+      </div>
+      <div class="nav-group">
+        <span class="nav-group-label">Data</span>
+        <a class="nav-link" href="{{ "data/" | relURL }}">Overview</a>
+        <a class="nav-link" href="{{ "data/tags/" | relURL }}">Visual Tags</a>
+        <a class="nav-link" href="{{ "data/similarity/" | relURL }}">Similarity</a>
+        <a class="nav-link" href="{{ "data/faces/" | relURL }}">Portraits</a>
+      </div>
     </nav>
   </div>
 </header>

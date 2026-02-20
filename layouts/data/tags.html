@@ -1,0 +1,95 @@
+{{ define "main" }}
+{{ $items := site.Data.dance.items }}
+{{ $enriched := where $items "visual_tags" "ne" nil }}
+
+{{/* Build tag count map */}}
+{{ $.Scratch.Set "tagcounts" (dict) }}
+{{ range $enriched }}
+  {{ range .visual_tags }}
+    {{ $tc := $.Scratch.Get "tagcounts" }}
+    {{ $tv := index $tc . | default 0 }}
+    {{ $.Scratch.Set "tagcounts" (merge $tc (dict . (add $tv 1))) }}
+  {{ end }}
+{{ end }}
+{{ $tagcounts := $.Scratch.Get "tagcounts" }}
+
+{{/* Find max count for percentage bars */}}
+{{ $.Scratch.Set "maxcount" 0 }}
+{{ range $k, $v := $tagcounts }}
+  {{ if gt $v ($.Scratch.Get "maxcount") }}{{ $.Scratch.Set "maxcount" $v }}{{ end }}
+{{ end }}
+{{ $maxcount := $.Scratch.Get "maxcount" }}
+
+<section class="hero">
+  <div class="wrap">
+    <p class="eyebrow"><a href="{{ "data/" | relURL }}">Collections as Data</a></p>
+    <h1>{{ .Title }}</h1>
+    <p class="lead">{{ .Params.description }}</p>
+  </div>
+</section>
+
+{{/* Tag dimensions — each is a named grouping of related labels */}}
+{{ $dimensions := slice
+  (dict "name" "People count"      "tags" (slice "one person" "two people" "group (3+)"))
+  (dict "name" "Physical activity" "tags" (slice "airborne" "partnering" "floor work" "static or posed"))
+  (dict "name" "Setting"           "tags" (slice "on stage" "studio / rehearsal" "portrait session"))
+  (dict "name" "Attire"            "tags" (slice "ballet costume" "contemporary costume" "practice clothes"))
+  (dict "name" "Photo style"       "tags" (slice "black and white" "color photo" "high contrast"))
+}}
+
+{{ range $dim := $dimensions }}
+<section class="tag-dimension wrap">
+  <div class="section-title">
+    <h2>{{ $dim.name }}</h2>
+  </div>
+  <div class="tag-chart">
+    {{ range $tag := $dim.tags }}
+      {{ $count := index $tagcounts $tag | default 0 }}
+      {{ $pct := 0 }}
+      {{ if gt $maxcount 0 }}{{ $pct = div (mul $count 100) $maxcount }}{{ end }}
+      <div class="tag-bar-row">
+        <span class="tag-bar-label">{{ $tag }}</span>
+        <div class="tag-bar-track">
+          <div class="tag-bar-fill" style="width: {{ $pct }}%;"></div>
+        </div>
+        <span class="tag-bar-count">{{ $count }}</span>
+      </div>
+    {{ end }}
+  </div>
+
+  {{/* Sample images for the top tag in this dimension */}}
+  {{ $topTag := "" }}
+  {{ $topCount := 0 }}
+  {{ range $tag := $dim.tags }}
+    {{ $c := index $tagcounts $tag | default 0 }}
+    {{ if gt $c $topCount }}
+      {{ $topCount = $c }}
+      {{ $topTag = $tag }}
+    {{ end }}
+  {{ end }}
+  {{ if $topTag }}
+  {{ $tagItems := slice }}
+  {{ range $enriched }}
+    {{ if in .visual_tags $topTag }}
+      {{ $tagItems = $tagItems | append . }}
+    {{ end }}
+  {{ end }}
+  {{ if $tagItems }}
+  <div class="tag-sample">
+    <p class="tag-sample-label">Sample images tagged <em>{{ $topTag }}</em> ({{ len $tagItems }} of {{ len $enriched }})</p>
+    <div class="tag-sample-grid">
+      {{ range first 6 $tagItems }}
+        {{ $img := .image_url }}
+        {{ if eq $img "" }}{{ $img = partial "iiif-image.html" . }}{{ end }}
+        <a class="tag-sample-thumb" href="{{ .record }}" target="_blank" rel="noopener" title="{{ .title }}">
+          <img src="{{ $img }}" alt="{{ .title }}" loading="lazy" decoding="async" />
+        </a>
+      {{ end }}
+    </div>
+  </div>
+  {{ end }}
+  {{ end }}
+</section>
+{{ end }}
+
+{{ end }}

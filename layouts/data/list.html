@@ -1,0 +1,88 @@
+{{ define "main" }}
+{{ $items := site.Data.dance.items }}
+{{ $enriched := where $items "visual_tags" "ne" nil }}
+
+{{ $face_count := 0 }}
+{{ range $enriched }}
+  {{ if .face_detected }}{{ $face_count = add $face_count 1 }}{{ end }}
+{{ end }}
+
+<section class="hero">
+  <div class="wrap">
+    <p class="eyebrow">Collections as Data</p>
+    <h1>{{ .Title }}</h1>
+    <p class="lead">{{ .Params.description }}</p>
+    <p class="lead" style="margin-top:16px;">Each of the {{ len $items }} photographs in this collection was processed by <a href="https://openai.com/research/clip" target="_blank" rel="noopener">CLIP</a> (Contrastive Language–Image Pretraining), an open-source multimodal model from OpenAI. CLIP produces a 512-dimensional embedding for each image that encodes visual content semantically rather than pixel-by-pixel. These embeddings power zero-shot tag classification, face detection, and nearest-neighbor similarity — all without manual labeling.</p>
+  </div>
+</section>
+
+<section class="breakdowns wrap">
+  <div class="section-title">
+    <h2>At a glance</h2>
+  </div>
+  <div class="breakdown-grid">
+    <div class="panel">
+      <h3>Collection</h3>
+      <ul class="count-list">
+        <li><span>Total photographs</span><span>{{ len $items }}</span></li>
+        <li><span>CLIP-analyzed</span><span>{{ len $enriched }}</span></li>
+        <li><span>Faces detected</span><span>{{ $face_count }}</span></li>
+        <li><span>Non-portrait</span><span>{{ sub (len $enriched) $face_count }}</span></li>
+      </ul>
+    </div>
+    <div class="panel">
+      <h3>Pipeline</h3>
+      <ul class="count-list">
+        <li><span>Model</span><span>CLIP ViT-B/32</span></li>
+        <li><span>Tag dimensions</span><span>5</span></li>
+        <li><span>Tag candidates</span><span>16</span></li>
+        <li><span>Tags per image</span><span>Top 4</span></li>
+        <li><span>Similar items shown</span><span>Top 3</span></li>
+      </ul>
+    </div>
+    <div class="panel">
+      <h3>Source</h3>
+      <ul class="count-list">
+        <li><span>Collection</span><span>Philadelphia Dance</span></li>
+        <li><span>Repository</span><span>Temple University Libraries</span></li>
+        <li><span>API</span><span>ContentDM + IIIF</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="data-nav-section wrap">
+  <div class="section-title">
+    <h2>Analysis pages</h2>
+  </div>
+  <div class="data-nav-grid">
+    <a class="data-nav-card" href="{{ "data/tags/" | relURL }}">
+      <div class="data-nav-icon">&#9632;</div>
+      <h3>Visual Tags</h3>
+      <p>Tag frequency distributions across five analytical dimensions: people count, physical activity, setting, attire, and photo characteristics.</p>
+      <span class="data-nav-link">Explore tags &rarr;</span>
+    </a>
+    <a class="data-nav-card" href="{{ "data/similarity/" | relURL }}">
+      <div class="data-nav-icon">&#9670;</div>
+      <h3>Visual Similarity</h3>
+      <p>Each photograph paired with its three nearest visual neighbors, ranked by cosine similarity of CLIP embeddings.</p>
+      <span class="data-nav-link">Explore similarity &rarr;</span>
+    </a>
+    <a class="data-nav-card" href="{{ "data/faces/" | relURL }}">
+      <div class="data-nav-icon">&#9711;</div>
+      <h3>Portraits</h3>
+      <p>Images sorted by face detection — portraits with visible faces versus action and group shots where faces are secondary.</p>
+      <span class="data-nav-link">Explore portraits &rarr;</span>
+    </a>
+  </div>
+</section>
+
+<section class="cta wrap">
+  <div class="cta-card">
+    <div>
+      <h2>Reproduce this analysis</h2>
+      <p>The pipeline is open-source. The <code style="background:rgba(247,241,230,.15);padding:2px 6px;border-radius:4px;">image-analysis/</code> folder in this repository contains <code style="background:rgba(247,241,230,.15);padding:2px 6px;border-radius:4px;">fetch_collection.py</code> (ContentDM data harvesting) and <code style="background:rgba(247,241,230,.15);padding:2px 6px;border-radius:4px;">enrich_images.py</code> (CLIP pipeline). Point either script at any IIIF-based collection to reproduce or extend this work.</p>
+    </div>
+  </div>
+</section>
+{{ end }}

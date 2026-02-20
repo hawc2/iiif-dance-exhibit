@@ -12,11 +12,32 @@
       "record": "https://digital.library.temple.edu/digital/collection/p16002coll17/id/20",
       "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll17:20/manifest.json",
       "company": "Pennsylvania Ballet",
-      "themes": ["Classical Ballet", "Productions"],
+      "themes": [
+        "Classical Ballet",
+        "Productions"
+      ],
       "photographer": "Jack Mitchell",
       "date": "1966-1967",
-      "subjects": ["Ballet", "Ballet dancers", "Performances"],
-      "description": "Pennsylvania Ballet dancers performing Sleeping Beauty, one of the company's early productions."
+      "subjects": [
+        "Ballet",
+        "Ballet dancers",
+        "Performances"
+      ],
+      "description": "Pennsylvania Ballet dancers performing Sleeping Beauty, one of the company's early productions.",
+      "id": "sleeping-beauty",
+      "image_url": "https://cdm16002.contentdm.oclc.org/iiif/2/p16002coll17:20/full/full/0/default.jpg",
+      "visual_tags": [
+        "on stage",
+        "airborne",
+        "floor work",
+        "contemporary costume"
+      ],
+      "face_detected": false,
+      "similar_items": [
+        "performance-of-sleeping-beauty",
+        "pennsylvania-ballet-dancers-performing-sleeping-beauty",
+        "two-ballet-dancers-during-performance"
+      ]
     },
     {
       "title": "Rodeo",
@@ -24,11 +45,32 @@
       "record": "https://digital.library.temple.edu/digital/collection/p16002coll17/id/1",
       "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll17:1/manifest.json",
       "company": "Pennsylvania Ballet",
-      "themes": ["American Dance", "Productions"],
+      "themes": [
+        "American Dance",
+        "Productions"
+      ],
       "photographer": "Paul Kolnik",
       "date": "February 1997",
-      "subjects": ["Ballet", "Performances", "Ballet dancers"],
-      "description": "Pennsylvania Ballet company members in Agnes de Mille's Rodeo, performed at the Merriam Theatre."
+      "subjects": [
+        "Ballet",
+        "Performances",
+        "Ballet dancers"
+      ],
+      "description": "Pennsylvania Ballet company members in Agnes de Mille's Rodeo, performed at the Merriam Theatre.",
+      "id": "rodeo",
+      "image_url": "https://cdm16002.contentdm.oclc.org/iiif/2/p16002coll17:1/full/full/0/default.jpg",
+      "visual_tags": [
+        "on stage",
+        "airborne",
+        "contemporary costume",
+        "partnering"
+      ],
+      "face_detected": false,
+      "similar_items": [
+        "performance-of-sleeping-beauty",
+        "pennsylvania-ballet-dancers-performing-sleeping-beauty",
+        "pennsylvania-ballet-dancers-in-agon-at-the-merriam-theater"
+      ]
     },
     {
       "title": "Lilac Garden",
@@ -36,12 +78,33 @@
       "record": "https://digital.library.temple.edu/digital/collection/p16002coll17/id/30",
       "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll17:30/manifest.json",
       "company": "Pennsylvania Ballet",
-      "themes": ["Classical Ballet", "Productions"],
+      "themes": [
+        "Classical Ballet",
+        "Productions"
+      ],
       "photographer": "Douglas Hay",
       "performers": "Lisa Sundstrom, Roy Kaiser",
       "date": "March 1991",
-      "subjects": ["Ballet", "Ballet dancers", "Performances"],
-      "description": "Principal dancers Lisa Sundstrom and Roy Kaiser in The Pennsylvania Ballet's production of Antony Tudor's richly dramatic masterwork, Lilac Garden."
+      "subjects": [
+        "Ballet",
+        "Ballet dancers",
+        "Performances"
+      ],
+      "description": "Principal dancers Lisa Sundstrom and Roy Kaiser in The Pennsylvania Ballet's production of Antony Tudor's richly dramatic masterwork, Lilac Garden.",
+      "id": "lilac-garden",
+      "image_url": "https://cdm16002.contentdm.oclc.org/iiif/2/p16002coll17:30/full/full/0/default.jpg",
+      "visual_tags": [
+        "partnering",
+        "contemporary costume",
+        "ballet costume",
+        "floor work"
+      ],
+      "face_detected": false,
+      "similar_items": [
+        "melissa-podcasy-performing",
+        "three-ballet-dancers-performing",
+        "two-ballet-dancers-performing"
+      ]
     },
     {
       "title": "Michelle Lucci during Performance",
@@ -49,11 +112,32 @@
       "record": "https://digital.library.temple.edu/digital/collection/p16002coll17/id/23",
       "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll17:23/manifest.json",
       "company": "Pennsylvania Ballet",
-      "themes": ["Classical Ballet", "Performers"],
+      "themes": [
+        "Classical Ballet",
+        "Performers"
+      ],
       "performers": "Michelle Lucci",
       "date": "Undated",
-      "subjects": ["Ballet", "Ballet dancers", "Performances"],
-      "description": "Michelle Lucci during Pennsylvania Ballet performance."
+      "subjects": [
+        "Ballet",
+        "Ballet dancers",
+        "Performances"
+      ],
+      "description": "Michelle Lucci during Pennsylvania Ballet performance.",
+      "id": "michelle-lucci-during-performance",
+      "image_url": "https://cdm16002.contentdm.oclc.org/iiif/2/p16002coll17:23/full/full/0/default.jpg",
+      "visual_tags": [
+        "contemporary costume",
+        "ballet costume",
+        "static or posed",
+        "floor work"
+      ],
+      "face_detected": true,
+      "similar_items": [
+        "barbara-weisberger-and-dancers-rehearse",
+        "two-ballet-dancers-during-performance",
+        "gilbert-martin-playing-piano-and-four-ballerinas-rehearsing"
+      ]
     },
     {
       "title": "Ballerina Posing with American Flag",
@@ -61,10 +145,31 @@
       "record": "https://digital.library.temple.edu/digital/collection/p16002coll17/id/10",
       "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll17:10/manifest.json",
       "company": "Pennsylvania Ballet",
-      "themes": ["American Dance", "Performers"],
+      "themes": [
+        "American Dance",
+        "Performers"
+      ],
       "date": "Undated",
-      "subjects": ["Ballet", "Ballerinas", "Ballet dancers"],
-      "description": "Ballerina posing in front of American flag."
+      "subjects": [
+        "Ballet",
+        "Ballerinas",
+        "Ballet dancers"
+      ],
+      "description": "Ballerina posing in front of American flag.",
+      "id": "ballerina-posing-with-american-flag",
+      "image_url": "https://cdm16002.contentdm.oclc.org/iiif/2/p16002coll17:10/full/full/0/default.jpg",
+      "visual_tags": [
+        "floor work",
+        "partnering",
+        "ballet costume",
+        "contemporary costume"
+      ],
+      "face_detected": false,
+      "similar_items": [
+        "under-the-sun-cast-photo",
+        "two-ballet-dancers-during-performance",
+        "pennsylvania-ballet-dancers-in-agon-at-the-merriam-theater"
+      ]
     },
     {
       "title": "Ballet Dancers Rehearsing",
@@ -72,10 +177,30 @@
       "record": "https://digital.library.temple.edu/digital/collection/p16002coll17/id/15",
       "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll17:15/manifest.json",
       "company": "Pennsylvania Ballet",
-      "themes": ["Training & Rehearsal", "Classical Ballet"],
+      "themes": [
+        "Training & Rehearsal",
+        "Classical Ballet"
+      ],
       "date": "Undated",
-      "subjects": ["Ballet", "Ballet dancers"],
-      "description": "Ballet dancers rehearsing for Pennsylvania Ballet production."
+      "subjects": [
+        "Ballet",
+        "Ballet dancers"
+      ],
+      "description": "Ballet dancers rehearsing for Pennsylvania Ballet production.",
+      "id": "ballet-dancers-rehearsing",
+      "image_url": "https://cdm16002.contentdm.oclc.org/iiif/2/p16002coll17:15/full/full/0/default.jpg",
+      "visual_tags": [
+        "partnering",
+        "floor work",
+        "airborne",
+        "contemporary costume"
+      ],
+      "face_detected": false,
+      "similar_items": [
+        "dance-instruction-in-studio",
+        "gilbert-martin-playing-piano-and-four-ballerinas-rehearsing",
+        "three-ballet-dancers-performing"
+      ]
     },
     {
       "title": "Two Ballet Dancers During Performance",
@@ -83,10 +208,31 @@
       "record": "https://digital.library.temple.edu/digital/collection/p16002coll17/id/5",
       "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll17:5/manifest.json",
       "company": "Pennsylvania Ballet",
-      "themes": ["Classical Ballet", "Productions"],
+      "themes": [
+        "Classical Ballet",
+        "Productions"
+      ],
       "date": "Undated",
-      "subjects": ["Ballet", "Ballet dancers", "Performances"],
-      "description": "Male and female ballet dancers during performance."
+      "subjects": [
+        "Ballet",
+        "Ballet dancers",
+        "Performances"
+      ],
+      "description": "Male and female ballet dancers during performance.",
+      "id": "two-ballet-dancers-during-performance",
+      "image_url": "https://cdm16002.contentdm.oclc.org/iiif/2/p16002coll17:5/full/full/0/default.jpg",
+      "visual_tags": [
+        "airborne",
+        "contemporary costume",
+        "floor work",
+        "ballet costume"
+      ],
+      "face_detected": false,
+      "similar_items": [
+        "pennsylvania-ballet-ballerina-performing-in-sleeping-beauty",
+        "two-ballet-dancers-performing",
+        "performance-of-sleeping-beauty"
+      ]
     },
     {
       "title": "David St. Charles - Lead Male Dancer",
@@ -94,12 +240,35 @@
       "record": "https://digital.library.temple.edu/digital/collection/p15037coll3/id/11529",
       "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p15037coll3:11529/manifest.json",
       "company": "Philadelphia Dance Company (Philadanco)",
-      "themes": ["Contemporary Dance", "Performers", "African American Dance"],
+      "themes": [
+        "Contemporary Dance",
+        "Performers",
+        "African American Dance"
+      ],
       "photographer": "Jack Tinney",
       "performers": "David St. Charles",
       "date": "October 4, 1981",
-      "subjects": ["Dance", "Dancers", "African American dancers", "Dance companies"],
-      "description": "David St. Charles, Philadanco's lead male dancer, photographed at the company's West Philadelphia location."
+      "subjects": [
+        "Dance",
+        "Dancers",
+        "African American dancers",
+        "Dance companies"
+      ],
+      "description": "David St. Charles, Philadanco's lead male dancer, photographed at the company's West Philadelphia location.",
+      "id": "david-st-charles---lead-male-dancer",
+      "image_url": "https://cdm16002.contentdm.oclc.org/iiif/2/p15037coll3:11529/full/full/0/default.jpg",
+      "visual_tags": [
+        "black and white",
+        "static or posed",
+        "contemporary costume",
+        "color photo"
+      ],
+      "face_detected": true,
+      "similar_items": [
+        "auditions-for-philadanco",
+        "two-ballet-dancers-posing",
+        "michelle-lucci-during-performance"
+      ]
     },
     {
       "title": "Auditions for Philadanco",
@@ -107,11 +276,34 @@
       "record": "https://digital.library.temple.edu/digital/collection/p15037coll3/id/11514",
       "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p15037coll3:11514/manifest.json",
       "company": "Philadelphia Dance Company (Philadanco)",
-      "themes": ["Training & Rehearsal", "Contemporary Dance", "African American Dance"],
+      "themes": [
+        "Training & Rehearsal",
+        "Contemporary Dance",
+        "African American Dance"
+      ],
       "performers": "Valerie Williams",
       "date": "June 25, 1975",
-      "subjects": ["Dance", "Dancers", "African American dancers", "Dance companies"],
-      "description": "Valerie Williams, 18, of North Philadelphia warms up with others auditioning for the Philadelphia Dance Company at 6249 Market Street."
+      "subjects": [
+        "Dance",
+        "Dancers",
+        "African American dancers",
+        "Dance companies"
+      ],
+      "description": "Valerie Williams, 18, of North Philadelphia warms up with others auditioning for the Philadelphia Dance Company at 6249 Market Street.",
+      "id": "auditions-for-philadanco",
+      "image_url": "https://cdm16002.contentdm.oclc.org/iiif/2/p15037coll3:11514/full/full/0/default.jpg",
+      "visual_tags": [
+        "partnering",
+        "floor work",
+        "studio / rehearsal",
+        "black and white"
+      ],
+      "face_detected": false,
+      "similar_items": [
+        "dance-instruction-in-studio",
+        "barbara-weisberger-instructing-young-ballerinas",
+        "ballet-dancers-rehearsing"
+      ]
     },
     {
       "title": "Performing the Samba",
@@ -119,11 +311,900 @@
       "record": "https://digital.library.temple.edu/digital/collection/p15037coll3/id/11516",
       "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p15037coll3:11516/manifest.json",
       "company": "Philadelphia Dance Company (Philadanco)",
-      "themes": ["Contemporary Dance", "African American Dance", "Productions"],
+      "themes": [
+        "Contemporary Dance",
+        "African American Dance",
+        "Productions"
+      ],
       "photographer": "Robert L. Fox",
       "date": "March 16, 1975",
-      "subjects": ["Dance", "Dancers", "African American dancers", "Dance companies"],
-      "description": "The Philadelphia Dance Company presented a Brazilian folk dance with African American influences at Martin Luther King High School."
+      "subjects": [
+        "Dance",
+        "Dancers",
+        "African American dancers",
+        "Dance companies"
+      ],
+      "description": "The Philadelphia Dance Company presented a Brazilian folk dance with African American influences at Martin Luther King High School.",
+      "id": "performing-the-samba",
+      "image_url": "https://cdm16002.contentdm.oclc.org/iiif/2/p15037coll3:11516/full/full/0/default.jpg",
+      "visual_tags": [
+        "airborne",
+        "floor work",
+        "ballet costume",
+        "contemporary costume"
+      ],
+      "face_detected": false,
+      "similar_items": [
+        "performance-of-sleeping-beauty",
+        "sleeping-beauty",
+        "dance-instruction-in-studio"
+      ]
+    },
+    {
+      "title": "Three ballet dancers performing",
+      "featured": false,
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll17/id/0",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll17:0/manifest.json",
+      "date": "Unknown",
+      "photographer": "Caras, Steven",
+      "subjects": [
+        "Ballet",
+        "Ballet dancers",
+        "Performances"
+      ],
+      "description": "Three ballet dancers performing on a stage. Photograph by \"Steven Caras New York City.\"",
+      "id": "three-ballet-dancers-performing",
+      "visual_tags": [
+        "ballet costume",
+        "contemporary costume",
+        "airborne",
+        "partnering"
+      ],
+      "face_detected": false,
+      "similar_items": [
+        "melissa-podcasy-performing",
+        "pennsylvania-ballet-ballerina-performing-in-sleeping-beauty",
+        "pennsylvania-ballet-dancers-in-agon-at-the-merriam-theater"
+      ],
+      "image_url": "https://cdm16002.contentdm.oclc.org/iiif/2/p16002coll17:0/full/full/0/default.jpg"
+    },
+    {
+      "title": "Pennsylvania Ballet dancers performing \"Sleeping Beauty\"",
+      "featured": false,
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll17/id/21",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll17:21/manifest.json",
+      "date": "1966-1967",
+      "photographer": "Mitchell, Jack",
+      "subjects": [
+        "Ballet",
+        "Ballet dancers",
+        "Performances"
+      ],
+      "description": "Pennsylvania Ballet dancers performing \"Sleeping Beauty.\"",
+      "id": "pennsylvania-ballet-dancers-performing-sleeping-beauty",
+      "visual_tags": [
+        "floor work",
+        "on stage",
+        "airborne",
+        "contemporary costume"
+      ],
+      "face_detected": false,
+      "similar_items": [
+        "performance-of-sleeping-beauty",
+        "sleeping-beauty",
+        "two-ballet-dancers-during-performance"
+      ],
+      "image_url": "https://cdm16002.contentdm.oclc.org/iiif/2/p16002coll17:21/full/full/0/default.jpg"
+    },
+    {
+      "title": "Pennsylvania Ballet dancers rehearsing for \"Apollo\"",
+      "featured": false,
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll17/id/29",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll17:29/manifest.json",
+      "date": "1984-05-14",
+      "photographer": "Richelle, Susanne;",
+      "subjects": [
+        "Ballet",
+        "Ballet dancers"
+      ],
+      "description": "Three Pennsylvania Ballet dancers rehearsing for \"Apollo,\"  with pianist and instructor.",
+      "id": "pennsylvania-ballet-dancers-rehearsing-for-apollo",
+      "visual_tags": [
+        "partnering",
+        "contemporary costume",
+        "floor work",
+        "studio / rehearsal"
+      ],
+      "face_detected": false,
+      "similar_items": [
+        "four-pennsylvania-ballet-dancers-rehearsing-for-apollo",
+        "pennsylvania-ballet-dancers-rehearsing",
+        "pennsylvania-ballet-dancers-rehearsing"
+      ],
+      "image_url": "https://cdm16002.contentdm.oclc.org/iiif/2/p16002coll17:29/full/full/0/default.jpg"
+    },
+    {
+      "title": "Dance instruction in studio.",
+      "featured": false,
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll17/id/19",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll17:19/manifest.json",
+      "date": "Unknown",
+      "subjects": [
+        "Ballet",
+        "Ballet dancers"
+      ],
+      "description": "Dance instruction in studio.",
+      "id": "dance-instruction-in-studio",
+      "visual_tags": [
+        "ballet costume",
+        "contemporary costume",
+        "airborne",
+        "floor work"
+      ],
+      "face_detected": false,
+      "similar_items": [
+        "pennsylvania-ballet-ballerina-performing-in-sleeping-beauty",
+        "pennsylvania-ballet-dancers-rehearsing",
+        "pennsylvania-ballet-dancers-rehearsing"
+      ],
+      "image_url": "https://cdm16002.contentdm.oclc.org/iiif/2/p16002coll17:19/full/full/0/default.jpg"
+    },
+    {
+      "title": "Pennsylvania Ballet dancers in \"AGON\" at the Merriam Theater",
+      "featured": false,
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll17/id/27",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll17:27/manifest.json",
+      "date": "1992-02",
+      "photographer": "Abbott, James B.",
+      "subjects": [
+        "Ballet dancers",
+        "Ballet",
+        "Performances"
+      ],
+      "description": "\"(L to R) Pennsylvania Ballet dancers Theodore Brunson, Meredith Rainey, Andrew Carroll and Kelly Moriarty in George Balanchine's contemporary classic, AGON, February 19 - 23 at the Merriam Theater.\"",
+      "id": "pennsylvania-ballet-dancers-in-agon-at-the-merriam-theater",
+      "visual_tags": [
+        "contemporary costume",
+        "partnering",
+        "ballet costume",
+        "studio / rehearsal"
+      ],
+      "face_detected": false,
+      "similar_items": [
+        "three-ballet-dancers-performing",
+        "dede-barfield-rehearsing",
+        "pennsylvania-ballet-dancers-rehearsing"
+      ],
+      "image_url": "https://cdm16002.contentdm.oclc.org/iiif/2/p16002coll17:27/full/full/0/default.jpg"
+    },
+    {
+      "title": "Pennsylvania Ballet dancers rehearsing",
+      "featured": false,
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll17/id/17",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll17:17/manifest.json",
+      "date": "Unknown",
+      "photographer": "Duncan, Kenn",
+      "subjects": [
+        "Ballet",
+        "Ballerinas",
+        "Ballet dancers"
+      ],
+      "description": "Pennsylvania Ballet dancers rehearsing.",
+      "id": "pennsylvania-ballet-dancers-rehearsing",
+      "visual_tags": [
+        "ballet costume",
+        "contemporary costume",
+        "partnering",
+        "studio / rehearsal"
+      ],
+      "face_detected": false,
+      "similar_items": [
+        "pennsylvania-ballet-dancers-rehearsing",
+        "dede-barfield-rehearsing",
+        "dance-instruction-in-studio"
+      ],
+      "image_url": "https://cdm16002.contentdm.oclc.org/iiif/2/p16002coll17:17/full/full/0/default.jpg"
+    },
+    {
+      "title": "Two ballet dancers posing",
+      "featured": false,
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll17/id/12",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll17:12/manifest.json",
+      "date": "1966",
+      "photographer": "Mitchell, Jack",
+      "subjects": [
+        "Ballet",
+        "Ballet dancers"
+      ],
+      "description": "Two ballet dancers posing for Robert Rodham's \"Pas de Poissons.\"",
+      "id": "two-ballet-dancers-posing",
+      "visual_tags": [
+        "partnering",
+        "ballet costume",
+        "contemporary costume",
+        "airborne"
+      ],
+      "face_detected": false,
+      "similar_items": [
+        "jacques-cesbron-and-cherie-noble-posing",
+        "melissa-podcasy-performing",
+        "three-ballet-dancers-performing"
+      ],
+      "image_url": "https://cdm16002.contentdm.oclc.org/iiif/2/p16002coll17:12/full/full/0/default.jpg"
+    },
+    {
+      "title": "Four Pennsylvania Ballet dancers rehearsing for \"Apollo\"",
+      "featured": false,
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll17/id/28",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll17:28/manifest.json",
+      "date": "1984-05-14",
+      "photographer": "Richelle, Susanne;",
+      "subjects": [
+        "Ballet",
+        "Ballet dancers"
+      ],
+      "description": "Four Pennsylvania Ballet dancers rehearsing for \"Apollo\": Hadley, Austin, Farrell, Nureyev.",
+      "id": "four-pennsylvania-ballet-dancers-rehearsing-for-apollo",
+      "visual_tags": [
+        "partnering",
+        "contemporary costume",
+        "group (3+)",
+        "ballet costume"
+      ],
+      "face_detected": false,
+      "similar_items": [
+        "pennsylvania-ballet-dancers-rehearsing-for-apollo",
+        "gilbert-martin-playing-piano-and-four-ballerinas-rehearsing",
+        "pennsylvania-ballet-dancers-in-agon-at-the-merriam-theater"
+      ],
+      "image_url": "https://cdm16002.contentdm.oclc.org/iiif/2/p16002coll17:28/full/full/0/default.jpg"
+    },
+    {
+      "title": "Pennsylvania Ballet ballerina performing in \"Sleeping Beauty\"",
+      "featured": false,
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll17/id/22",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll17:22/manifest.json",
+      "date": "1966-1967",
+      "photographer": "Mitchell, Jack",
+      "subjects": [
+        "Ballet",
+        "Ballet dancers",
+        "Performances"
+      ],
+      "description": "Pennsylvania Ballet ballerina performing in \"Sleeping Beauty\".",
+      "id": "pennsylvania-ballet-ballerina-performing-in-sleeping-beauty",
+      "visual_tags": [
+        "ballet costume",
+        "contemporary costume",
+        "airborne",
+        "floor work"
+      ],
+      "face_detected": false,
+      "similar_items": [
+        "melissa-podcasy-performing",
+        "three-ballet-dancers-performing",
+        "two-ballet-dancers-performing"
+      ],
+      "image_url": "https://cdm16002.contentdm.oclc.org/iiif/2/p16002coll17:22/full/full/0/default.jpg"
+    },
+    {
+      "title": "Jacques Cesbron and Cherie Noble posing",
+      "featured": false,
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll17/id/13",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll17:13/manifest.json",
+      "date": "1966",
+      "photographer": "Mitchell, Jack",
+      "subjects": [
+        "Ballet",
+        "Ballet dancers"
+      ],
+      "description": "Jacques Cesbron and Cherie Noble posing for Robert Rodham's \"Pas de Poissons\".",
+      "id": "jacques-cesbron-and-cherie-noble-posing",
+      "visual_tags": [
+        "partnering",
+        "contemporary costume",
+        "ballet costume",
+        "airborne"
+      ],
+      "face_detected": false,
+      "similar_items": [
+        "jacques-cesbron-and-cherie-noble",
+        "two-ballet-dancers-posing",
+        "lilac-garden"
+      ],
+      "image_url": "https://cdm16002.contentdm.oclc.org/iiif/2/p16002coll17:13/full/full/0/default.jpg"
+    },
+    {
+      "title": "Pennsylvania Ballet dancers rehearsing",
+      "featured": false,
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll17/id/16",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll17:16/manifest.json",
+      "date": "Unknown",
+      "photographer": "Simpson, John",
+      "subjects": [
+        "Ballet",
+        "Ballerinas",
+        "Ballet dancers"
+      ],
+      "description": "Pennsylvania Ballet ballerinas rehearsing.",
+      "id": "pennsylvania-ballet-dancers-rehearsing",
+      "visual_tags": [
+        "ballet costume",
+        "contemporary costume",
+        "partnering",
+        "studio / rehearsal"
+      ],
+      "face_detected": false,
+      "similar_items": [
+        "pennsylvania-ballet-dancers-rehearsing",
+        "dede-barfield-rehearsing",
+        "dance-instruction-in-studio"
+      ],
+      "image_url": "https://cdm16002.contentdm.oclc.org/iiif/2/p16002coll17:16/full/full/0/default.jpg"
+    },
+    {
+      "title": "Barbara Weisberger instructing young ballerinas",
+      "featured": false,
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll17/id/18",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll17:18/manifest.json",
+      "date": "Unknown",
+      "photographer": "Mitchell, Jack",
+      "subjects": [
+        "Ballet",
+        "Ballerinas"
+      ],
+      "description": "Barbara Weisberger instructing young ballerinas.",
+      "id": "barbara-weisberger-instructing-young-ballerinas",
+      "image_url": "https://cdm16002.contentdm.oclc.org/iiif/2/p16002coll17:18/full/full/0/default.jpg",
+      "visual_tags": [
+        "partnering",
+        "black and white",
+        "studio / rehearsal",
+        "floor work"
+      ],
+      "face_detected": false,
+      "similar_items": [
+        "dance-instruction-in-studio",
+        "ballet-dancers-rehearsing",
+        "gilbert-martin-playing-piano-and-four-ballerinas-rehearsing"
+      ]
+    },
+    {
+      "title": "Two ballet dancers performing",
+      "featured": false,
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll17/id/9",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll17:9/manifest.json",
+      "date": "1977-1978",
+      "photographer": "Stapleton, John",
+      "subjects": [
+        "Ballet dancers",
+        "Ballet"
+      ],
+      "description": "Man and woman ballet dancers performing",
+      "id": "two-ballet-dancers-performing",
+      "image_url": "https://cdm16002.contentdm.oclc.org/iiif/2/p16002coll17:9/full/full/0/default.jpg",
+      "visual_tags": [
+        "ballet costume",
+        "contemporary costume",
+        "airborne",
+        "floor work"
+      ],
+      "face_detected": false,
+      "similar_items": [
+        "pennsylvania-ballet-ballerina-performing-in-sleeping-beauty",
+        "melissa-podcasy-performing",
+        "two-ballet-dancers-during-performance"
+      ]
+    },
+    {
+      "title": "Portrait of Maurice Kaplow",
+      "featured": false,
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll17/id/25",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll17:25/manifest.json",
+      "date": "1972-1978",
+      "photographer": "Greenawalt, Roger;",
+      "subjects": [
+        "Portraits"
+      ],
+      "description": "Portrait of Maurice Kaplow.",
+      "id": "portrait-of-maurice-kaplow",
+      "image_url": "https://cdm16002.contentdm.oclc.org/iiif/2/p16002coll17:25/full/full/0/default.jpg",
+      "visual_tags": [
+        "black and white",
+        "static or posed",
+        "practice clothes",
+        "color photo"
+      ],
+      "face_detected": true,
+      "similar_items": [
+        "maurice-kaplow",
+        "george-balanchine",
+        "george-balanchine"
+      ]
+    },
+    {
+      "title": "Jacques Cesbron and Cherie Noble",
+      "featured": false,
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll17/id/11",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll17:11/manifest.json",
+      "date": "1966",
+      "photographer": "Mitchell, Jack",
+      "subjects": [
+        "Ballet",
+        "Ballet dancers"
+      ],
+      "description": "Jacques Cesbron and Cherie Noble in Robert Rodham's \"Pas de Poissons.\"",
+      "id": "jacques-cesbron-and-cherie-noble",
+      "image_url": "https://cdm16002.contentdm.oclc.org/iiif/2/p16002coll17:11/full/full/0/default.jpg",
+      "visual_tags": [
+        "partnering",
+        "contemporary costume",
+        "static or posed",
+        "airborne"
+      ],
+      "face_detected": false,
+      "similar_items": [
+        "jacques-cesbron-and-cherie-noble-posing",
+        "two-ballet-dancers-posing",
+        "lilac-garden"
+      ]
+    },
+    {
+      "title": "Martha Chamberlain",
+      "featured": false,
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll17/id/43",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll17:43/manifest.json",
+      "date": "Unknown",
+      "subjects": [
+        "Ballet",
+        "Ballerinas",
+        "Ballet dancers"
+      ],
+      "description": "Headshot portrait of Martha Chamberlain, dancer in Pennsylvania Ballet corps de ballet at time of photo.",
+      "id": "martha-chamberlain",
+      "image_url": "https://cdm16002.contentdm.oclc.org/iiif/2/p16002coll17:43/full/full/0/default.jpg",
+      "visual_tags": [
+        "contemporary costume",
+        "static or posed",
+        "floor work",
+        "black and white"
+      ],
+      "face_detected": true,
+      "similar_items": [
+        "dede-barfield",
+        "two-ballet-dancers-performing",
+        "linda-zettle"
+      ]
+    },
+    {
+      "title": "Dede Barfield rehearsing",
+      "featured": false,
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll17/id/44",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll17:44/manifest.json",
+      "date": "Unknown",
+      "subjects": [
+        "Ballet",
+        "Ballerinas",
+        "Ballet dancers"
+      ],
+      "description": "Dancer Dede Barfield shown practicing a jump in a dance studio. Two other dancers shown in background.",
+      "id": "dede-barfield-rehearsing",
+      "image_url": "https://cdm16002.contentdm.oclc.org/iiif/2/p16002coll17:44/full/full/0/default.jpg",
+      "visual_tags": [
+        "airborne",
+        "contemporary costume",
+        "ballet costume",
+        "floor work"
+      ],
+      "face_detected": false,
+      "similar_items": [
+        "pennsylvania-ballet-dancers-rehearsing",
+        "pennsylvania-ballet-dancers-rehearsing",
+        "pennsylvania-ballet-dancers-in-agon-at-the-merriam-theater"
+      ]
+    },
+    {
+      "title": "\"Eakins' View\" cast photo",
+      "featured": false,
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll17/id/38",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll17:38/manifest.json",
+      "date": "Unknown",
+      "subjects": [
+        "Ballet",
+        "Ballet dancers"
+      ],
+      "description": "Group photo of cast members of \"Eakins' View\" in costume, posed with props.",
+      "id": "eakins-view-cast-photo",
+      "image_url": "https://cdm16002.contentdm.oclc.org/iiif/2/p16002coll17:38/full/full/0/default.jpg",
+      "visual_tags": [
+        "black and white",
+        "group (3+)",
+        "static or posed",
+        "on stage"
+      ],
+      "face_detected": false,
+      "similar_items": [
+        "jacques-cesbron-and-cherie-noble-posing",
+        "jacques-cesbron-and-cherie-noble",
+        "under-the-sun-cast-photo"
+      ]
+    },
+    {
+      "title": "Dede Barfield",
+      "featured": false,
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll17/id/41",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll17:41/manifest.json",
+      "date": "Unknown",
+      "subjects": [
+        "Ballet",
+        "Ballerinas",
+        "Ballet dancers"
+      ],
+      "description": "Headshot portrait of Dede Barfield, who was the Pennsylvania Ballet's new principal dancer at time of photo.",
+      "id": "dede-barfield",
+      "image_url": "https://cdm16002.contentdm.oclc.org/iiif/2/p16002coll17:41/full/full/0/default.jpg",
+      "visual_tags": [
+        "contemporary costume",
+        "ballet costume",
+        "black and white",
+        "static or posed"
+      ],
+      "face_detected": true,
+      "similar_items": [
+        "martha-chamberlain",
+        "michelle-lucci-during-performance",
+        "melissa-podcasy-performing"
+      ]
+    },
+    {
+      "title": "Girls in dance class",
+      "featured": false,
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll17/id/37",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll17:37/manifest.json",
+      "date": "1983",
+      "photographer": "Boardman, Deborah",
+      "subjects": [
+        "Dance",
+        "Ballet",
+        "Students",
+        "Children"
+      ],
+      "description": "Three girls perform dance exercises in front of instructor and classmates standing along barre.",
+      "id": "girls-in-dance-class",
+      "image_url": "https://cdm16002.contentdm.oclc.org/iiif/2/p16002coll17:37/full/full/0/default.jpg",
+      "visual_tags": [
+        "airborne",
+        "partnering",
+        "floor work",
+        "color photo"
+      ],
+      "face_detected": false,
+      "similar_items": [
+        "barbara-weisberger-instructing-young-ballerinas",
+        "dance-instruction-in-studio",
+        "performing-the-samba"
+      ]
+    },
+    {
+      "title": "Performance of \"Sleeping Beauty\"",
+      "featured": false,
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll17/id/42",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll17:42/manifest.json",
+      "date": "Unknown",
+      "photographer": "Weisberger, Barbara; Pennsylvania Ballet",
+      "subjects": [
+        "Ballet",
+        "Ballet dancers",
+        "Performances"
+      ],
+      "description": "Ballerinas take center stage during a performance of \"Sleeping Beauty.\"",
+      "id": "performance-of-sleeping-beauty",
+      "image_url": "https://cdm16002.contentdm.oclc.org/iiif/2/p16002coll17:42/full/full/0/default.jpg",
+      "visual_tags": [
+        "airborne",
+        "on stage",
+        "floor work",
+        "contemporary costume"
+      ],
+      "face_detected": false,
+      "similar_items": [
+        "sleeping-beauty",
+        "pennsylvania-ballet-dancers-performing-sleeping-beauty",
+        "pennsylvania-ballet-ballerina-performing-in-sleeping-beauty"
+      ]
+    },
+    {
+      "title": "\"Under the Sun\" cast photo",
+      "featured": false,
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll17/id/39",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll17:39/manifest.json",
+      "date": "Unknown",
+      "photographer": "McGuire, Michael D.",
+      "subjects": [
+        "Ballet",
+        "Ballet dancers"
+      ],
+      "description": "Group photo of cast members of \"Under the Sun\" in costume, posed with props.",
+      "id": "under-the-sun-cast-photo",
+      "image_url": "https://cdm16002.contentdm.oclc.org/iiif/2/p16002coll17:39/full/full/0/default.jpg",
+      "visual_tags": [
+        "partnering",
+        "group (3+)",
+        "floor work",
+        "contemporary costume"
+      ],
+      "face_detected": false,
+      "similar_items": [
+        "ballet-dancers-rehearsing",
+        "two-ballet-dancers-during-performance",
+        "four-pennsylvania-ballet-dancers-rehearsing-for-apollo"
+      ]
+    },
+    {
+      "title": "Barbara Weisberger and dancers rehearse",
+      "featured": false,
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll17/id/40",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll17:40/manifest.json",
+      "date": "Unknown",
+      "photographer": "Weisberger, Barbara; Pennsylvania Ballet",
+      "subjects": [
+        "Ballet",
+        "Ballerinas",
+        "Ballet dancers"
+      ],
+      "description": "Barbara Weisberger, founder and artistic director of Pennsylvania ballet, shown in dance studio with four dancers in background.",
+      "id": "barbara-weisberger-and-dancers-rehearse",
+      "image_url": "https://cdm16002.contentdm.oclc.org/iiif/2/p16002coll17:40/full/full/0/default.jpg",
+      "visual_tags": [
+        "contemporary costume",
+        "studio / rehearsal",
+        "ballet costume",
+        "black and white"
+      ],
+      "face_detected": false,
+      "similar_items": [
+        "michelle-lucci-during-performance",
+        "ballet-dancers-rehearsing",
+        "barbara-weisberger-instructing-young-ballerinas"
+      ]
+    },
+    {
+      "title": "Young dancers in costume for the \"Nutcracker\"",
+      "featured": false,
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll17/id/35",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll17:35/manifest.json",
+      "date": "Circa=1985",
+      "photographer": "Boardman, Deborah",
+      "subjects": [
+        "Ballet",
+        "Ballet dancers",
+        "Children"
+      ],
+      "description": "Two girls in costume for a performance of the \"Nutcracker\" pose in lobby with Pennsylvania Ballet posters.",
+      "id": "young-dancers-in-costume-for-the-nutcracker",
+      "image_url": "https://cdm16002.contentdm.oclc.org/iiif/2/p16002coll17:35/full/full/0/default.jpg",
+      "visual_tags": [
+        "black and white",
+        "partnering",
+        "static or posed",
+        "ballet costume"
+      ],
+      "face_detected": false,
+      "similar_items": [
+        "performing-the-samba",
+        "barbara-weisberger-instructing-young-ballerinas",
+        "two-ballet-dancers-during-performance"
+      ]
+    },
+    {
+      "title": "Spassoff and dance apprentice at Franklin Institute",
+      "featured": false,
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll17/id/36",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll17:36/manifest.json",
+      "date": "1990-05-05",
+      "photographer": "Alba, Nora",
+      "subjects": [
+        "Ballet",
+        "Ballet dancers",
+        "Children"
+      ],
+      "description": "\"Bojan Spassoff, Director of The Shirley Rock School of the Pennsylvania Ballet and Apprentice Kelly Moriarty participate in a lecture demonstration at the opening of The Franklin Institute's Future Center.\"",
+      "id": "spassoff-and-dance-apprentice-at-franklin-institute",
+      "image_url": "https://cdm16002.contentdm.oclc.org/iiif/2/p16002coll17:36/full/full/0/default.jpg",
+      "visual_tags": [
+        "group (3+)",
+        "partnering",
+        "on stage",
+        "studio / rehearsal"
+      ],
+      "face_detected": false,
+      "similar_items": [
+        "performing-the-samba",
+        "girls-in-dance-class",
+        "barbara-weisberger-instructing-young-ballerinas"
+      ]
+    },
+    {
+      "title": "Barbara Weisberger and guests",
+      "featured": false,
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll17/id/31",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll17:31/manifest.json",
+      "date": "Unknown",
+      "subjects": [],
+      "description": "Barbara Weisberger and guests",
+      "id": "barbara-weisberger-and-guests",
+      "image_url": "https://cdm16002.contentdm.oclc.org/iiif/2/p16002coll17:31/full/full/0/default.jpg",
+      "visual_tags": [
+        "group (3+)",
+        "color photo",
+        "two people",
+        "static or posed"
+      ],
+      "face_detected": false,
+      "similar_items": [
+        "young-dancers-in-costume-for-the-nutcracker",
+        "performing-the-samba",
+        "george-balanchine"
+      ]
+    },
+    {
+      "title": "Gilbert Martin playing piano and four ballerinas rehearsing",
+      "featured": false,
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll17/id/14",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll17:14/manifest.json",
+      "date": "1970",
+      "subjects": [
+        "Ballet",
+        "Ballet dancers"
+      ],
+      "description": "\"Gilbert Martin is rehearsal pianist for 'Spookride'.\" Gilbert Martin playing the piano and four ballerinas rehearsing.",
+      "id": "gilbert-martin-playing-piano-and-four-ballerinas-rehearsing",
+      "image_url": "https://cdm16002.contentdm.oclc.org/iiif/2/p16002coll17:14/full/full/0/default.jpg",
+      "visual_tags": [
+        "partnering",
+        "contemporary costume",
+        "studio / rehearsal",
+        "ballet costume"
+      ],
+      "face_detected": false,
+      "similar_items": [
+        "four-pennsylvania-ballet-dancers-rehearsing-for-apollo",
+        "ballet-dancers-rehearsing",
+        "dance-instruction-in-studio"
+      ]
+    },
+    {
+      "title": "George Balanchine",
+      "featured": false,
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll17/id/33",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll17:33/manifest.json",
+      "date": "Unknown",
+      "photographer": "Caras, Steven;",
+      "subjects": [
+        "Portraits"
+      ],
+      "description": "George Balanchine standing with hand in pocket.",
+      "id": "george-balanchine",
+      "image_url": "https://cdm16002.contentdm.oclc.org/iiif/2/p16002coll17:33/full/full/0/default.jpg",
+      "visual_tags": [
+        "black and white",
+        "static or posed",
+        "color photo",
+        "practice clothes"
+      ],
+      "face_detected": true,
+      "similar_items": [
+        "george-balanchine",
+        "portrait-of-maurice-kaplow",
+        "linda-zettle"
+      ]
+    },
+    {
+      "title": "George Balanchine",
+      "featured": false,
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll17/id/34",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll17:34/manifest.json",
+      "date": "Unknown",
+      "photographer": "Swope, Martha",
+      "subjects": [
+        "Portraits"
+      ],
+      "description": "Portrait of George Balanchine. \"New York City Ballet, New York State Theater, 64th & Broadway.\"",
+      "id": "george-balanchine",
+      "visual_tags": [
+        "black and white",
+        "static or posed",
+        "color photo",
+        "practice clothes"
+      ],
+      "face_detected": true,
+      "similar_items": [
+        "george-balanchine",
+        "portrait-of-maurice-kaplow",
+        "linda-zettle"
+      ],
+      "image_url": "https://cdm16002.contentdm.oclc.org/iiif/2/p16002coll17:34/full/full/0/default.jpg"
+    },
+    {
+      "title": "Linda Zettle",
+      "featured": false,
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll17/id/45",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll17:45/manifest.json",
+      "date": "1972-09-10",
+      "subjects": [
+        "Ballet",
+        "Ballerinas",
+        "Ballet dancers"
+      ],
+      "description": "Headshot of Linda Zettle used in a Philadelphia Evening Bulletin article announcing Zettle as among three other dancers joining the Pennsylvania Ballet (dated 9/10/72).",
+      "id": "linda-zettle",
+      "image_url": "https://cdm16002.contentdm.oclc.org/iiif/2/p16002coll17:45/full/full/0/default.jpg",
+      "visual_tags": [
+        "black and white",
+        "static or posed",
+        "color photo",
+        "contemporary costume"
+      ],
+      "face_detected": true,
+      "similar_items": [
+        "martha-chamberlain",
+        "george-balanchine",
+        "george-balanchine"
+      ]
+    },
+    {
+      "title": "Maurice Kaplow",
+      "featured": false,
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll17/id/26",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll17:26/manifest.json",
+      "date": "Unknown",
+      "photographer": "Mitchell, Jack",
+      "subjects": [
+        "Portraits"
+      ],
+      "description": "Portrait of Maurice Kaplow.",
+      "id": "maurice-kaplow",
+      "image_url": "https://cdm16002.contentdm.oclc.org/iiif/2/p16002coll17:26/full/full/0/default.jpg",
+      "visual_tags": [
+        "black and white",
+        "static or posed",
+        "practice clothes",
+        "color photo"
+      ],
+      "face_detected": true,
+      "similar_items": [
+        "portrait-of-maurice-kaplow",
+        "george-balanchine",
+        "george-balanchine"
+      ]
+    },
+    {
+      "title": "Melissa Podcasy performing",
+      "featured": false,
+      "record": "https://digital.library.temple.edu/digital/collection/p16002coll17/id/24",
+      "manifest": "https://cdm16002.contentdm.oclc.org/iiif/p16002coll17:24/manifest.json",
+      "date": "Unknown",
+      "photographer": "Caras, Steven;",
+      "subjects": [
+        "Ballet",
+        "Ballet dancers",
+        "Performances"
+      ],
+      "description": "Melissa Podcasy performing with male ballet dancer.",
+      "id": "melissa-podcasy-performing",
+      "image_url": "https://cdm16002.contentdm.oclc.org/iiif/2/p16002coll17:24/full/full/0/default.jpg",
+      "visual_tags": [
+        "contemporary costume",
+        "ballet costume",
+        "partnering",
+        "airborne"
+      ],
+      "face_detected": false,
+      "similar_items": [
+        "pennsylvania-ballet-ballerina-performing-in-sleeping-beauty",
+        "three-ballet-dancers-performing",
+        "two-ballet-dancers-performing"
+      ]
     }
   ]
 }
