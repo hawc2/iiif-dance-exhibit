@@ -620,11 +620,14 @@ body::after {
 }
 
 .similarity-row {
-  display: flex;
-  align-items: flex-start;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: 20px;
-  padding: 20px 0;
+  padding: 32px 0;
   border-top: 1px solid var(--line);
+  max-width: 860px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .similarity-row:first-of-type {
@@ -632,8 +635,6 @@ body::after {
 }
 
 .similarity-anchor {
-  flex-shrink: 0;
-  width: 130px;
   text-align: center;
 }
 
@@ -642,23 +643,16 @@ body::after {
   aspect-ratio: 3 / 4;
   object-fit: cover;
   border-radius: 10px;
-  border: 2px solid var(--dance-teal);
+  border: 3px solid var(--dance-teal);
   display: block;
 }
 
 .similarity-label {
-  margin: 6px 0 0;
+  margin: 8px 0 0;
   font-size: 0.75rem;
   color: var(--muted);
   line-height: 1.3;
   font-weight: 600;
-}
-
-.similarity-matches {
-  display: flex;
-  gap: 16px;
-  flex-wrap: wrap;
-  flex: 1;
 }
 
 .similarity-thumb {
@@ -668,7 +662,6 @@ body::after {
   gap: 6px;
   text-decoration: none;
   color: inherit;
-  width: 130px;
   transition: opacity 0.15s ease;
 }
 
@@ -698,12 +691,7 @@ body::after {
 
 @media (max-width: 640px) {
   .similarity-row {
-    flex-direction: column;
-  }
-
-  .similarity-anchor,
-  .similarity-thumb {
-    width: 100px;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 

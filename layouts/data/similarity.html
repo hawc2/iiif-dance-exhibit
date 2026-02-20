@@ -24,18 +24,16 @@
         </a>
         <p class="similarity-label">{{ .title }}</p>
       </div>
-      <div class="similarity-matches">
-        {{ range .similar_items }}
-          {{ $sid := . }}
-          {{ $sim := index (where $items "id" $sid) 0 }}
-          {{ if $sim }}
-          <a class="similarity-thumb" href="{{ $sim.record }}" target="_blank" rel="noopener" title="{{ $sim.title }}">
-            <img src="{{ $sim.image_url }}" alt="{{ $sim.title }}" loading="lazy" decoding="async" />
-            <span class="similarity-thumb-label">{{ $sim.title }}</span>
-          </a>
-          {{ end }}
+      {{ range .similar_items }}
+        {{ $sid := . }}
+        {{ $sim := index (where $items "id" $sid) 0 }}
+        {{ if $sim }}
+        <a class="similarity-thumb" href="{{ $sim.record }}" target="_blank" rel="noopener" title="{{ $sim.title }}">
+          <img src="{{ $sim.image_url }}" alt="{{ $sim.title }}" loading="lazy" decoding="async" />
+          <span class="similarity-thumb-label">{{ $sim.title }}</span>
+        </a>
         {{ end }}
-      </div>
+      {{ end }}
     </div>
     {{ end }}
   {{ end }}
